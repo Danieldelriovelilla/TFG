@@ -15,7 +15,7 @@ classdef LSTM_Style
                 end
                 %Fill the Strains field just once
                 for i = 1:length(Struct)
-                    sizes(i) = length(Struct(i).Strains);
+                    sizes(i) = size(Struct(i).Strains,1);
                     for i2 = 1:sizes(i)
                         LSTM(1).Strains = [LSTM(1).Strains;{Struct(i).Strains(i2,:)}];
                     end
