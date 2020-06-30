@@ -63,9 +63,46 @@ end
     %}
 
 noise = wgn(1500,1,-6); 
-figure()
+h = figure();
 histogram(noise,18)
 
+
+%% PLOT DAMAGES
+tests = [17,2,6,9,13];
+h = figure();
+box on;
+hold on; 
+for i = 1:length(tests);
+    plot(Data(tests(i)).Strains(end,:));
+    leg(i) = Data(tests(i)).Ty_Si; 
+end; 
+legend(leg,'Interpreter','latex');
+axis([0 1500 -320 150])
+xlabel('Longitud','Interpreter','latex')
+ylabel('Deformacion','Interpreter','latex')
+title('\textbf{Carga: 4 kN}','Interpreter','latex')    
+set(h,'Units','Inches');
+pos = get(h,'Position');
+set(h,'PaperPositionMode','Auto','PaperUnits','Inches','PaperSize',[pos(3), pos(4)])
+print(h,['OBR_Figures/OBR_damages'],'-dpdf','-r0')
+
+tests = [2,6,9,13];
+h = figure();
+box on;
+hold on; 
+for i = 1:length(tests);
+    plot(Data(tests(i)).Strains(end,:)-Data(17).Strains(end,:));
+    leg(i) = Data(tests(i)).Ty_Si; 
+end; 
+legend(leg,'Interpreter','latex');
+%axis([0 1500 -60 50])
+xlabel('Longitud','Interpreter','latex')
+ylabel('Deformacion','Interpreter','latex')
+title('\textbf{Carga: 4 kN}','Interpreter','latex')    
+set(h,'Units','Inches');
+pos = get(h,'Position');
+set(h,'PaperPositionMode','Auto','PaperUnits','Inches','PaperSize',[pos(3), pos(4)])
+print(h,['OBR_Figures/OBR_dif'],'-dpdf','-r0')
 
 %% GRNERATE MORE SAMPLES
 
