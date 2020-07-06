@@ -1,0 +1,31 @@
+\chapter{Introducción y motivación}
+
+Tanto en el sector aeronáutico como espacial, las aeronaves y sistemas son diseñados siguiendo un método basado en admisibles y reglas de diseño muy conservativas. Con esto se busca que, bajo una larga lista de condiciones de diseño que varían dependiendo del tipo de aeronave, se garantice la integridad estructural y su correcto funcionamiento durante el transcurso de cada de misión.\\
+
+Estos admisibles de diseño pueden ir desde defectos estructurales complejos de gran importancia en la seguridad del conjunto de la aeronave, como puede ser la pérdida de un motor, hasta defectos con una pequeña influencia estructural pero que, con el tiempo, pueden convertirse en catastróficos, sirviendo de ejemplo la rotura de un pequeño remache.
+
+La pérdida de un motor produce defectos estructurales cuya influencia se manifiesta en toda la estructura, siendo así fácilmente detectable. Sin embargo, cuando un remache se rompe su influencia es local y de pequeña magnitud.\\
+
+Para poder detectar o cuantificar el tamaño de un defecto en una estructura se comparan magnitudes físicas de la estructura bajo estudio con un estado de la misma estructura sin defectos. La forma más sencilla de hacer esta comparación es realizando una inspección visual, pero este procedimiento solo permite detectar defectos que han producido cambios grandes y evidentes sobre la estructura, quedando ocultos aquellos que no se detectan a simple vista.
+
+Al ser necesarias inspecciones más exhaustivas para detectar defectos se realizan mantenimientos preventivos. Durante los mantenimientos se utilizan técnicas de inspección no destructivas (NDI) con las que se recogen datos que se procesan para asegurar la integridad estructural de la aeronave.\\
+
+Sin embargo, durante los últimos años, y como una evolución de las técnicas NDI, ha habido un gran desarrollo de sistemas cuya función es evaluar el estado de las estructuras de una aeronave o vehículo espacial durante la operación y a tiempo real mediante el uso sensores integrados en las propias estructuras. Estos son los llamados \textit{Structural Health Monitoring Systems} (SHMS).
+
+La utilización de estos sistemas tiene consecuencias muy importantes. Permiten la monitorización de las estructuras sin la intervención de inspectores y sin tener que desensamblarla para analizarla. Esto hace que el tiempo entre la detección de un defecto su reparación sea muy corto, haciendo que este no aumente y evitando que termine provocando un fallo catastrófico. Entonces, si el SHMS no detecta ningún tipo de defecto, se llega a la conclusión de que la aeronave no necesita ser revisada en profundidad con tanta frecuencia y los periodos de mantenimiento pueden ser separados en el tiempo y, mientras tanto, la aeronave sigue operando cumpliendo con los admisibles de diseño.\\
+
+Por otra parte, la tendencia del sector aeroespacial desde hace varias décadas ha sido aumentar el porcentaje en peso del avión fabricado con materiales compuestos. Los materiales compuestos tienen unas propiedades específicas muy superiores a metales como el aluminio, por otro lado, presentan modos de fallo más complejos, variados y más difíciles de detectar comparados a los que sufren los materiales metálicos.
+
+El aumento del uso de materiales compuestos, junto con el potencial de los SHMS ha sido el impulsor de este Trabajo Fin de Grado. El objetivo es desarrollar herramientas fiables basadas en algoritmos de Inteligencia Artificial (IA) para poder detectar defectos en estructuras aeronáuticas, más concretamente, en estructuras aeronáuticas con geometría compleja fabricadas con material compuesto.\\
+ 
+Grandes empresas como Google, Facebook, Microsoft o Nvidia han invertido mucho esfuerzo en el campo de la Inteligencia Artificial (IA) durante los últimos años y han conseguido increíbles resultados, como por ejemplo el NVidia RTX Voice, un cancelador de ruido basado en algoritmos de Deep Learning (DL).\\
+
+Siguiendo esta linea de investigación en DL, se va a explorar la posibilidad de utilizar este tipo de algoritmos de tratamiento de datos para desarrollar dos herramientas de SHM. La primera tendrá que ser capaz de clasificar diferentes estados de una estructura basándose en medidas de deformación. A su vez, se pretende detectar el nivel de carga al que está sometida la estructura y a la temperatura que se encuentra.
+
+Por otra parte, se desarrollará una segunda herramienta para localizar impactos y cuantificar la energía de estos en una costilla del A380. Esta herramienta se alimentará con la onda mecánica producida por el objeto impactador.\\
+
+El lado negativo del uso de IA para SHM es que se requiere un Data Set muy grande para poder entrenar los algoritmos y conseguir un nivel de confianza elevado en los resultados. Usando de ejemplo la herramienta que detectará impactos y su energía, se va a calcular el orden de magnitud de los impactos que son necesarios para tener una cantidad de datos aceptable.
+
+Dividiendo la placa en una malla de 10 x 10, seleccionando 10 niveles de energía diferentes y 100 repeticiones de cada impactos llegamos a tener una cantidad mínima de $10^5$ impactos, lo cual es inviable para realizar de forma manual y rigurosa, por lo que su automatización es necesaria.\\
+
+Para esta automatización se va a proponer el diseño de un Impactador por gravedad de control numérico. Con esta máquina se realizarán todos los impactos que sean necesarios de forma automática, a la vez que almacenará y preprocesará los datos para alimentar la herramienta de DL.

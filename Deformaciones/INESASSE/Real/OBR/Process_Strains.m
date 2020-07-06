@@ -29,7 +29,14 @@ for i = 1:8
     load(i,1) = {num2str(Data(1).Load(i))};
 end
 
+lines = [1 225; 226 444; 445 663; 664 882; 884 1101; 1102 1320; 1321 1499];
 for i = 1:length(Data)
+    for i2 = 1:8
+        for i3 = 1:size(lines,1)
+            Data(i).Strains(i2,lines(i3,1):lines(i3,2)) = ...
+                sgolayfilt(Data(i).Strains(i2,lines(i3,1):lines(i3,2)),3,11);
+        end
+    end
     Data(i).Load = load;
 end
 
@@ -50,7 +57,8 @@ for j = 1:length(Data)
     axis([0 1500 -315 150])
     xlabel('Longitud','Interpreter','latex')
     ylabel('Deformacion','Interpreter','latex')
-    title([Data(j).Ty_Si{:}],'Interpreter','latex')
+    %title([Data(j).Ty_Si{:}],'Interpreter','latex')
+    title("\textbf{D01-R03}",'Interpreter','latex')
     %legend(leg)
     %{
     set(h,'Units','Inches');
@@ -60,14 +68,18 @@ for j = 1:length(Data)
     %saveas(gcf, ['OBR_Figures/' Data(j).Dam_Size{:} '.png'])
     %}
 end
-    %}
-
 noise = wgn(1500,1,-6); 
 h = figure();
 histogram(noise,18)
+    
+    
+    
+    %}
+
 
 
 %% PLOT DAMAGES
+%{
 tests = [17,2,6,9,13];
 h = figure();
 box on;
@@ -103,6 +115,7 @@ set(h,'Units','Inches');
 pos = get(h,'Position');
 set(h,'PaperPositionMode','Auto','PaperUnits','Inches','PaperSize',[pos(3), pos(4)])
 print(h,['OBR_Figures/OBR_dif'],'-dpdf','-r0')
+%}
 
 %% GRNERATE MORE SAMPLES
 
