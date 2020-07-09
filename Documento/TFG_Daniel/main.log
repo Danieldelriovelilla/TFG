@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.7.5)  6 JUL 2020 13:18
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.7.5)  9 JUL 2020 13:30
 entering extended mode
 **./main.tex
 (main.tex
@@ -1826,185 +1826,205 @@ Package pdftex.def Info: 3/Fotos/femest.png  used on input line 156.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[21 <./3/Fotos/remaches.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 174--175
+[21 <./3/Fotos/remaches.png>] [22 <./3/Fotos/ensayo.png> <./3/Fotos/femest.png>
+]
+Underfull \hbox (badness 10000) in paragraph at lines 175--176
 
  []
 
-[22 <./3/Fotos/ensayo.png> <./3/Fotos/femest.png>]
 <3/Fotos/Sensores_FBG.pdf, id=528, 421.575pt x 316.18124pt>
 File: 3/Fotos/Sensores_FBG.pdf Graphic file (type pdf)
 <use 3/Fotos/Sensores_FBG.pdf>
-Package pdftex.def Info: 3/Fotos/Sensores_FBG.pdf  used on input line 178.
+Package pdftex.def Info: 3/Fotos/Sensores_FBG.pdf  used on input line 179.
 (pdftex.def)             Requested size: 355.65944pt x 266.7483pt.
 <3/Fotos/Saltos_FBG.pdf, id=531, 421.575pt x 316.18124pt>
 File: 3/Fotos/Saltos_FBG.pdf Graphic file (type pdf)
 <use 3/Fotos/Saltos_FBG.pdf>
-Package pdftex.def Info: 3/Fotos/Saltos_FBG.pdf  used on input line 188.
+Package pdftex.def Info: 3/Fotos/Saltos_FBG.pdf  used on input line 189.
 (pdftex.def)             Requested size: 355.65944pt x 266.7483pt.
-
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 <3/Fotos/Procesado_FBG.pdf, id=532, 421.575pt x 316.18124pt>
 File: 3/Fotos/Procesado_FBG.pdf Graphic file (type pdf)
 <use 3/Fotos/Procesado_FBG.pdf>
-Package pdftex.def Info: 3/Fotos/Procesado_FBG.pdf  used on input line 196.
+Package pdftex.def Info: 3/Fotos/Procesado_FBG.pdf  used on input line 197.
 (pdftex.def)             Requested size: 355.65944pt x 266.7483pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 202--204
+Underfull \hbox (badness 10000) in paragraph at lines 203--205
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 205--206
+Underfull \hbox (badness 10000) in paragraph at lines 206--207
 
  []
 
-<3/Fotos/Histograma_FBG.pdf, id=535, 421.575pt x 316.18124pt>
+[23
+
+ <./3/Fotos/Sensores_FBG.pdf>]
+<3/Fotos/Histograma_FBG.pdf, id=541, 421.575pt x 316.18124pt>
 File: 3/Fotos/Histograma_FBG.pdf Graphic file (type pdf)
 <use 3/Fotos/Histograma_FBG.pdf>
-Package pdftex.def Info: 3/Fotos/Histograma_FBG.pdf  used on input line 209.
+Package pdftex.def Info: 3/Fotos/Histograma_FBG.pdf  used on input line 210.
 (pdftex.def)             Requested size: 355.65944pt x 266.7483pt.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[23 <./3/Fotos/Sensores_FBG.pdf>]
-<3/Fotos/FBG_damages.pdf, id=544, 421.575pt x 316.18124pt>
+ [24 <./3/Fotos/Saltos_FBG.pdf> <./3/Fotos/Procesado_FBG.pdf>]
+<3/Fotos/FBG_damages.pdf, id=553, 421.575pt x 316.18124pt>
 File: 3/Fotos/FBG_damages.pdf Graphic file (type pdf)
 <use 3/Fotos/FBG_damages.pdf>
-Package pdftex.def Info: 3/Fotos/FBG_damages.pdf  used on input line 219.
+Package pdftex.def Info: 3/Fotos/FBG_damages.pdf  used on input line 220.
 (pdftex.def)             Requested size: 355.65944pt x 266.7483pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<3/Fotos/FBG_dif.pdf, id=545, 421.575pt x 316.18124pt>
+<3/Fotos/FBG_dif.pdf, id=554, 421.575pt x 316.18124pt>
 File: 3/Fotos/FBG_dif.pdf Graphic file (type pdf)
 <use 3/Fotos/FBG_dif.pdf>
-Package pdftex.def Info: 3/Fotos/FBG_dif.pdf  used on input line 227.
+Package pdftex.def Info: 3/Fotos/FBG_dif.pdf  used on input line 228.
 (pdftex.def)             Requested size: 355.65944pt x 266.7483pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 240--241
+Underfull \hbox (badness 10000) in paragraph at lines 241--242
 
  []
 
-[24 <./3/Fotos/Saltos_FBG.pdf> <./3/Fotos/Procesado_FBG.pdf>]
 <3/Fotos/D01-R3.pdf, id=556, 421.575pt x 316.18124pt>
 File: 3/Fotos/D01-R3.pdf Graphic file (type pdf)
 <use 3/Fotos/D01-R3.pdf>
-Package pdftex.def Info: 3/Fotos/D01-R3.pdf  used on input line 244.
+Package pdftex.def Info: 3/Fotos/D01-R3.pdf  used on input line 245.
 (pdftex.def)             Requested size: 355.65944pt x 266.7483pt.
- [25 <./3/Fotos/Histograma_FBG.pdf> <./3/Fotos/FBG_damages.pdf>] [26 <./3/Fotos
-/FBG_dif.pdf> <./3/Fotos/D01-R3.pdf>]
 
-LaTeX Warning: Citation 'Savitzky-Golay' on page 27 undefined on input line 252
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Citation 'Savitzky-Golay' on page 25 undefined on input line 253
 .
 
-<3/Fotos/filtro.pdf, id=575, 421.575pt x 316.18124pt>
+<3/Fotos/filtro.pdf, id=558, 421.575pt x 316.18124pt>
 File: 3/Fotos/filtro.pdf Graphic file (type pdf)
 <use 3/Fotos/filtro.pdf>
-Package pdftex.def Info: 3/Fotos/filtro.pdf  used on input line 256.
+Package pdftex.def Info: 3/Fotos/filtro.pdf  used on input line 257.
 (pdftex.def)             Requested size: 355.65944pt x 266.7483pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 262--263
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 263--264
 
  []
 
-<3/Fotos/histo_ruido_OBR.pdf, id=579, 421.575pt x 316.18124pt>
+<3/Fotos/histo_ruido_OBR.pdf, id=561, 421.575pt x 316.18124pt>
 File: 3/Fotos/histo_ruido_OBR.pdf Graphic file (type pdf)
 <use 3/Fotos/histo_ruido_OBR.pdf>
-Package pdftex.def Info: 3/Fotos/histo_ruido_OBR.pdf  used on input line 268.
+Package pdftex.def Info: 3/Fotos/histo_ruido_OBR.pdf  used on input line 269.
 (pdftex.def)             Requested size: 355.65944pt x 266.7483pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-
-LaTeX Warning: Reference `OBRR_det' on page 27 undefined on input line 274.
-
-<3/Fotos/detalle_OBR_ruido.pdf, id=580, 421.575pt x 316.18124pt>
+<3/Fotos/detalle_OBR_ruido.pdf, id=563, 421.575pt x 316.18124pt>
 File: 3/Fotos/detalle_OBR_ruido.pdf Graphic file (type pdf)
 <use 3/Fotos/detalle_OBR_ruido.pdf>
-Package pdftex.def Info: 3/Fotos/detalle_OBR_ruido.pdf  used on input line 278.
+Package pdftex.def Info: 3/Fotos/detalle_OBR_ruido.pdf  used on input line 279.
 
 (pdftex.def)             Requested size: 355.65944pt x 266.7483pt.
+[25 <./3/Fotos/Histograma_FBG.pdf>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<3/Fotos/OBR_damages.pdf, id=583, 421.575pt x 316.18124pt>
+[26 <./3/Fotos/FBG_damages.pdf> <./3/Fotos/FBG_dif.pdf>]
+<3/Fotos/OBR_damages.pdf, id=581, 421.575pt x 316.18124pt>
 File: 3/Fotos/OBR_damages.pdf Graphic file (type pdf)
 <use 3/Fotos/OBR_damages.pdf>
-Package pdftex.def Info: 3/Fotos/OBR_damages.pdf  used on input line 294.
+Package pdftex.def Info: 3/Fotos/OBR_damages.pdf  used on input line 289.
 (pdftex.def)             Requested size: 355.65944pt x 266.7483pt.
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<3/Fotos/OBR_dif.pdf, id=584, 421.575pt x 316.18124pt>
+<3/Fotos/OBR_dif.pdf, id=582, 421.575pt x 316.18124pt>
 File: 3/Fotos/OBR_dif.pdf Graphic file (type pdf)
 <use 3/Fotos/OBR_dif.pdf>
-Package pdftex.def Info: 3/Fotos/OBR_dif.pdf  used on input line 302.
+Package pdftex.def Info: 3/Fotos/OBR_dif.pdf  used on input line 297.
 (pdftex.def)             Requested size: 355.65944pt x 266.7483pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (197.68068pt too wide) in paragraph at lines 318--319
+Overfull \hbox (197.68068pt too wide) in paragraph at lines 313--314
 [][]$\OT1/cmtt/m/n/10.95 https : / / towardsdatascience . com / hands-[]on-[]gr
 aph-[]neural-[]networks-[]with-[]pytorch-[]pytorch-[]geometric-[]359487e221a8$[
 ] 
  []
 
-[27 <./3/Fotos/filtro.pdf>] [28 <./3/Fotos/histo_ruido_OBR.pdf> <./3/Fotos/deta
-lle_OBR_ruido.pdf>]
-<3/Fotos/Load_INESASSE_t-sne.png, id=603, 986.68625pt x 931.48pt>
+[27 <./3/Fotos/D01-R3.pdf> <./3/Fotos/filtro.pdf>] [28 <./3/Fotos/histo_ruido_O
+BR.pdf> <./3/Fotos/detalle_OBR_ruido.pdf>] [29 <./3/Fotos/OBR_damages.pdf> <./3
+/Fotos/OBR_dif.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 324--325
+
+ []
+
+
+LaTeX Warning: Citation 't_sne' on page 30 undefined on input line 326.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 326--327
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 344--345
+
+ []
+
+<3/Fotos/Load_INESASSE_t-sne.png, id=614, 986.68625pt x 931.48pt>
 File: 3/Fotos/Load_INESASSE_t-sne.png Graphic file (type png)
 <use 3/Fotos/Load_INESASSE_t-sne.png>
-Package pdftex.def Info: 3/Fotos/Load_INESASSE_t-sne.png  used on input line 34
-3.
+Package pdftex.def Info: 3/Fotos/Load_INESASSE_t-sne.png  used on input line 36
+5.
 (pdftex.def)             Requested size: 426.79134pt x 402.91641pt.
- [29 <./3/Fotos/OBR_damages.pdf> <./3/Fotos/OBR_dif.pdf>]
-<3/Fotos/Load_INESASSE_confusion.png, id=612, 786.94pt x 786.94pt>
+[30
+
+]
+<3/Fotos/Load_INESASSE_confusion.png, id=625, 786.94pt x 786.94pt>
 File: 3/Fotos/Load_INESASSE_confusion.png Graphic file (type png)
 <use 3/Fotos/Load_INESASSE_confusion.png>
 Package pdftex.def Info: 3/Fotos/Load_INESASSE_confusion.png  used on input lin
-e 351.
+e 373.
 (pdftex.def)             Requested size: 426.79134pt x 426.79047pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<3/Fotos/Ty_Si_INESASSE_t-sne.png, id=613, 1282.7925pt x 1220.56pt>
+<3/Fotos/Ty_Si_INESASSE_t-sne.png, id=626, 1282.7925pt x 1220.56pt>
 File: 3/Fotos/Ty_Si_INESASSE_t-sne.png Graphic file (type png)
 <use 3/Fotos/Ty_Si_INESASSE_t-sne.png>
 Package pdftex.def Info: 3/Fotos/Ty_Si_INESASSE_t-sne.png  used on input line 3
-61.
+83.
 (pdftex.def)             Requested size: 426.79134pt x 406.08253pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<3/Fotos/Ty_Si_INESASSE_confusion.png, id=614, 1509.64pt x 1509.64pt>
+<3/Fotos/Ty_Si_INESASSE_confusion.png, id=627, 1509.64pt x 1509.64pt>
 File: 3/Fotos/Ty_Si_INESASSE_confusion.png Graphic file (type png)
 <use 3/Fotos/Ty_Si_INESASSE_confusion.png>
 Package pdftex.def Info: 3/Fotos/Ty_Si_INESASSE_confusion.png  used on input li
-ne 369.
+ne 391.
 (pdftex.def)             Requested size: 426.79134pt x 426.77356pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) [30 <./3/Fotos/Load_INESASSE_t-sne.png>] [31 <./3/Fotos/Load_INESASSE_confusi
-on.png>] [32 <./3/Fotos/Ty_Si_INESASSE_t-sne.png>] [33 <./3/Fotos/Ty_Si_INESASS
+) [31 <./3/Fotos/Load_INESASSE_t-sne.png>] [32 <./3/Fotos/Load_INESASSE_confusi
+on.png>] [33 <./3/Fotos/Ty_Si_INESASSE_t-sne.png>] [34 <./3/Fotos/Ty_Si_INESASS
 E_confusion.png>] (4/4.tex
 Cap\'{\i }tulo 4.
-[34
+[35
 
-
-] [35
 
 ] [36
 
@@ -2012,17 +2032,19 @@ Cap\'{\i }tulo 4.
 
 ] [38
 
+] [39
+
 ]) (5/5.tex
 Cap\'{\i }tulo 5.
-[39
+[40
 
 
 
 ])
 
-LaTeX Warning: Citation 'einstein' on page 40 undefined on input line 124.
+LaTeX Warning: Citation 'einstein' on page 41 undefined on input line 124.
 
-[40
+[41
 
 ]
 
@@ -2056,10 +2078,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31078 strings out of 480790
- 599260 string characters out of 2898202
- 1233550 words of memory out of 3000000
- 46300 multiletter control sequences out of 15000+200000
+ 31084 strings out of 480790
+ 599338 string characters out of 2898202
+ 1233778 words of memory out of 3000000
+ 46302 multiletter control sequences out of 15000+200000
  549568 words of font info for 96 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  60i,18n,76p,1151b,3124s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -2079,12 +2101,13 @@ hivos de programa/LaTeX_stuff/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><D
 :/Archivos de programa/LaTeX_stuff/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10
 .pfb><D:/Archivos de programa/LaTeX_stuff/MiKTeX/fonts/type1/public/amsfonts/cm
 /cmsy6.pfb><D:/Archivos de programa/LaTeX_stuff/MiKTeX/fonts/type1/public/amsfo
-nts/cm/cmti10.pfb><D:/Archivos de programa/LaTeX_stuff/MiKTeX/fonts/type1/publi
-c/amsfonts/cm/cmti9.pfb><D:/Archivos de programa/LaTeX_stuff/MiKTeX/fonts/type1
-/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (47 pages, 7645956 bytes).
+nts/cm/cmsy8.pfb><D:/Archivos de programa/LaTeX_stuff/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmti10.pfb><D:/Archivos de programa/LaTeX_stuff/MiKTeX/fonts/type1
+/public/amsfonts/cm/cmti9.pfb><D:/Archivos de programa/LaTeX_stuff/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on main.pdf (48 pages, 7668730 bytes).
 PDF statistics:
- 754 PDF objects out of 1000 (max. 8388607)
- 146 named destinations out of 1000 (max. 500000)
+ 769 PDF objects out of 1000 (max. 8388607)
+ 150 named destinations out of 1000 (max. 500000)
  480 words of extra memory for PDF output out of 10000 (max. 10000000)
 

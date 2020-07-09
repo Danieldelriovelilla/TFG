@@ -29,25 +29,19 @@ for i = 1:8
     load(i,1) = {num2str(Data(1).Load(i))};
 end
 
-lines = [1 225; 226 444; 445 663; 664 882; 884 1101; 1102 1320; 1321 1499];
-for i = 1:length(Data)
-    for i2 = 1:8
-        for i3 = 1:size(lines,1)
-            Data(i).Strains(i2,lines(i3,1):lines(i3,2)) = ...
-                sgolayfilt(Data(i).Strains(i2,lines(i3,1):lines(i3,2)),3,11);
-        end
-    end
-    Data(i).Load = load;
-end
-
+% Eliminar ensayos malos
 for i = 5:8;
     Data(i).Strains(5,:) = [];
     Data(i).Load(5) = [];
 end
+    Data(5).Strains(1,:) = [];
+    Data(5).Load(1) = [];
     Data(18).Strains(5,:) = [];
+    Data(18).Load(5) = [];
     Data(6) = [];
-
-    %{
+   
+    
+% Plot pre filtrado: aparecen picos inesperados tras filtrar
 for j = 1:length(Data)
     h = figure();
     for i = 1:size(Data(j).Strains,1)
@@ -57,8 +51,41 @@ for j = 1:length(Data)
     axis([0 1500 -315 150])
     xlabel('Longitud','Interpreter','latex')
     ylabel('Deformacion','Interpreter','latex')
-    %title([Data(j).Ty_Si{:}],'Interpreter','latex')
-    title("\textbf{D01-R03}",'Interpreter','latex')
+    title([Data(j).Ty_Si{:}],'Interpreter','latex')
+    %title("\textbf{D01-R03}",'Interpreter','latex')
+    %legend(leg)
+    %{
+    set(h,'Units','Inches');
+    pos = get(h,'Position');
+    set(h,'PaperPositionMode','Auto','PaperUnits','Inches','PaperSize',[pos(3), pos(4)])
+    print(h,['OBR_Figures/', Data(j).Dam_Size{:}],'-dpdf','-r0')
+    %saveas(gcf, ['OBR_Figures/' Data(j).Dam_Size{:} '.png'])
+    %}
+end    
+   
+% Filtrado de ruido
+lines = [1 225; 226 444; 445 663; 664 882; 884 1101; 1102 1320; 1321 1499];
+for i = 1:length(Data)
+    for i2 = 1:length(Data(i).Load)
+        for i3 = 1:size(lines,1)
+            Data(i).Strains(i2,lines(i3,1):lines(i3,2)) = ...
+                sgolayfilt(Data(i).Strains(i2,lines(i3,1):lines(i3,2)),3,11);
+        end
+    end
+end
+
+% Plot post filtrado: comprobar el cambio tras filtrar el ruido
+for j = 1:length(Data)
+    h = figure();
+    for i = 1:size(Data(j).Strains,1)
+        plot(Data(j).Strains(i,:))
+        hold on
+    end
+    axis([0 1500 -315 150])
+    xlabel('Longitud','Interpreter','latex')
+    ylabel('Deformacion','Interpreter','latex')
+    title([Data(j).Ty_Si{:}],'Interpreter','latex')
+    %title("\textbf{D01-R03}",'Interpreter','latex')
     %legend(leg)
     %{
     set(h,'Units','Inches');
@@ -68,13 +95,11 @@ for j = 1:length(Data)
     %saveas(gcf, ['OBR_Figures/' Data(j).Dam_Size{:} '.png'])
     %}
 end
-noise = wgn(1500,1,-6); 
-h = figure();
-histogram(noise,18)
-    
-    
-    
-    %}
+
+% noise = wgn(1500,1,-6);
+% h = figure();
+% histogram(noise,18)
+
 
 
 

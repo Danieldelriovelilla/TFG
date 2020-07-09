@@ -2,14 +2,15 @@ clear all
 close all
 clc
 
-load('Data/Mean-1to10_Min-Load-30.mat')
+data_path = 'C:\Users\danie\OneDrive - Universidad Politécnica de Madrid\TFG\Datos_TFG\Deformaciones\INESASSE\Real\FBG\';
+load([data_path 'Mean-1to10_Min-Load-30.mat'])
 
 mean = 5;
 
-Tr_La = LSTM(mean).Type_La_Tr;
-Tr_St = LSTM(mean).Type_St_Tr;
-Va_La = LSTM(mean).Type_La_Val;
-Va_St = LSTM(mean).Type_St_Val;
+Tr_La = LSTM(mean).Load_La_Tr;
+Tr_St = LSTM(mean).Load_St_Tr;
+Va_La = LSTM(mean).Load_La_Val;
+Va_St = LSTM(mean).Load_St_Val;
 
 categ = categories(Tr_La);
 
@@ -34,7 +35,7 @@ validation_data = cell2mat(Va_St(:));
 
 validation = cat(2, labels_num, validation_data);
 
-save('Data/Type_DACOMAT.mat', 'training', 'validation')
+save([data_path 'Type_INESASSE.mat'], 'training', 'validation')
 
 %save('strains_labels_cells', 'training_data', 'training_labels', ...
 %    'validation_data', 'validation_labels')

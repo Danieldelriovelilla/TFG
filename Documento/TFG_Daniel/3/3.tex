@@ -162,6 +162,7 @@ En la Figura \ref{femest} se pueden ver los distintos elementos del modelo y en 
 
 %----------%
 
+\clearpage
 
 \section{Pre-procesado de señales}
 
@@ -247,9 +248,9 @@ Por otro lado, los sensores OBR realizan una captura instantánea del campo de d
     \label{fig:D01-R3}
 \end{figure}
     
-Siguiendo el mismo razonamiento usado con los sensores FBGs, si se añade una distribución de ruido gausiano a un valor del campo de deformaciones, se pueden generar ensayos independientes con los que entrenar a la red. Sin embargo, el campo de deformaciones de la Figura \ref{fig:D01-R3} ya contiene el ruido asociado a la medida. 
+Siguiendo el mismo razonamiento usado con los sensores FBGs, si se añade una distribución de ruido gausiano a un valor del campo de deformaciones, se pueden generar ensayos independientes con los que entrenar a la red. Sin embargo, el campo de deformaciones de la Figura \ref{fig:D01-R3} ya contiene ruido asociado a la medida. 
 
-Para conseguir un campo de deformaciones que usar como referencia se va a utilizar el filtro \textit{Savitzky-Golay}. Este filtro digital es comúnmente usado para suavizar series de datos equiespaciados \cite{Savitzky-Golay}.
+Para conseguir un campo de deformaciones que usar como referencia, al que añadir posteriormente ruido, se va a utilizar el filtro \textit{Savitzky-Golay}. Este filtro digital es comúnmente usado para suavizar series de datos equiespaciados \cite{Savitzky-Golay}.
 
 \begin{figure}[h!]
     \centering
@@ -271,7 +272,7 @@ Ahora que se tiene una medida de referencia, ya se puede añadir la distribució
     \label{OBRR_ruido}
 \end{figure}
     
-En la Figura \ref{fig:OBRR_det} se puede ver un detalle del caso D01-R03 en el que se ha ampliado una línea de sensor. Aquí se aprecia más claramente que cada una de estas muestras se pueda considerar como un ensayo independiente.
+En la Figura \ref{fig:OBRR_det} se puede ver un detalle del caso D01-R03 en el que se ha ampliado las deformaciones medidas por una línea de sensor. Aquí se aprecia más claramente que cada una de estas muestras se pueda considerar como un ensayo independiente.
     
 \begin{figure}[h!]
     \centering
@@ -281,15 +282,7 @@ En la Figura \ref{fig:OBRR_det} se puede ver un detalle del caso D01-R03 en el q
     \label{fig:OBRR_det}
 \end{figure}
    
-   
- 
-Una vez se han procesado los datos proporcionados por las redes de sensores, se puede representar el campo de deformaciones que produce cada daño. Para tener una referencia visual clara, a continuación se van a comparar estos daños entre sí, cogiendo como representación de cada uno el número medio de remaches extraídos y la carga máxima.
-
-
-    
-
-    
-Lo mismo se aprecia en las Figuras \ref{OBRR_dam} y \ref{OBRR_dif} para el sensor OBR. Se puede extraer la misma conclusión que con los sensores FBG pero al tener muchas más medidas, las diferencias entre daños no se ven tan claras.
+Igual que se ha hecho con los FBGs, en las Figuras \ref{OBRR_dam} y \ref{OBRR_dif} se pueden ver los campos de deformaciones provocados por los distintos daños con la carga máxima y su diferencia respecto al estado sin daño.
 
 \begin{figure}[h!]
     \centering
@@ -322,14 +315,41 @@ Lo mismo se aprecia en las Figuras \ref{OBRR_dam} y \ref{OBRR_dif} para el senso
 
 %  -----------------------------------------  %
 
+\clearpage
 
 \section{Construcción del modelo de Deep Learning}
 
-\hyperref[sec:funcionamiento_DL]{Explicación del funcionamiento de una red neuronal}
+Una vez que se han procesado las deformaciones se tiene un \textit{Dataset} para los sensores FBG en el que cada muestra es de dimensión 20 (20 sensores) mientras que en el dataset de los sensores OBR las muestras son de dimensión 1499 (equivalente a tener 1499 sensores).
 
+Un ser humano no puede visualizar un espacio con tantas dimensiones. Esto hace complicado tener una idea de la distribución de las muestras y mucho menos imaginar como la red genera fronteras entre las distintas clases de datos( como se ha explicado en \hyperref[sec:funcionamiento_DL]{\textit{Representación gráfica del funcionamiento una NN}}).\\
 
-Una vez que se han preparado los datos, se puede pasar a construir el modelo de DL que se va a utilizar para clasificar los daños descritos.
+Para reducir la dimensionalidad de los datasets y tener una representación gráfica de ellos se va a utilizar un algoritmo de Machine Learning muy popular para la visualización de datos multidimansionales: \textbf{t-SNE (t-distributed Stochastic Neighbor Embedding)}. A continuación se va a hacer una rápida explicación del funcionamiento de este algoritmo \cite{t_sne}.\\
 
+\textit{Stochastic Neighbor Embedding (SNE)} comienza convirtiendo las distancias euclideas entre puntos del dataset de alta dimensionalidad en probabilidades condicionales que representan su similitud. La similitud del punto $x_j$ con el punto $x_i$ es la probabilidad condicional $p_{j|i}$ y su proximidad se calcula usando una distribución de densidad de probabilidad gaussiana centrada en $x_i$. Para los puntos cercanos, el $p_{j|i}$ es relativamente alto, mientras que para los puntos lejanos, el $p_{j|i}$ será casi infinitesimal. Matemáticamente, el la probabilidad condicional $p_{j|i}$ viene dada por la Ecuación \ref{eq:prob_alta}.
+
+\begin{equation}
+	p_{j|i} = \frac{exp(-||x_i-x_j||^2/2\sigma ^2_i)}{\sum_{k\neq i}( exp(-||x_i-x_k||^2/2\sigma ^2_i)}
+	\label{eq:prob_alta}
+\end{equation}
+\vspace{4pt}
+
+En el espacio de baja dimensión los puntos $y_i$ y $y_j$ son la transformación de $x_i$ y $x_j$ del espacio con alta dimensionalidad. Es posible calcular una probabilidad condicional similar, $q_{j|i}$ a la anterior. Para ello, fijamos la varianza del gaussiano que se emplea en el cálculo de las probabilidades condicionales $q_{j|i}$ en $\frac{1}{\sqrt{2}}$. Por lo tanto, modelamos la similitud del punto $y_j$ con $y_i$ con la Ecuación \ref{eq:prob_baja}
+
+\begin{equation}
+	q_{j|i} = \frac{exp(-||y_i-y_j||^2)}{\sum_{k\neq i}(exp(-||y_i-y_k||^2)}
+	\label{eq:prob_baja}
+\end{equation}
+\vspace{4pt}
+
+Si los puntos $y_i$ y $y_j$ del mapa de baja dimensionalidad modelan bien la similaridad entre los puntos $x_i$ y $y_j$ del espacio con alta dimensionalidad, las probabilidades $p_{j|i}$ y $q_{j|i}$ serán iguales. Por lo tanto, el objetivo de SNE es minimizar las discordancias entre $p_{j|i}$ y $q_{j|i}$.\\
+
+Igual que para las NN, es necesario tener una función de costes que represente el error que está cometiendo el algoritmo y así optimizarla por medio del descenso del gradiente. La función de costes elegida es la divergencia Kullback-Leibler individual entre las distribuciones de probabilidad conjunta, P y Q (Equación \ref{eq:costes}).
+
+\begin{equation}
+	C = KL(P||Q) = \sum_{i}\sum_{j}p_{ji}\log\frac{p_{j|i}}{q_{j|i}}
+	\label{eq:costes}
+\end{equation}
+\vspace{4pt}
 
 
 
