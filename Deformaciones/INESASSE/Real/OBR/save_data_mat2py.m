@@ -1,4 +1,3 @@
-
 clear all
 close all
 clc
@@ -35,4 +34,12 @@ validation_data = cell2mat(Va_St(:));
 
 validation = cat(2, labels_num, validation_data);
 
-save([Data_Path 'Ty_Si_OBR_INESASSE.mat'], 'training', 'validation')
+save([Data_Path 'Type_OBR_INESASSE.mat'], 'training', 'validation')
+
+
+%% T-SNE
+
+validation(:,1) = [];
+Y = tsne(validation);
+gscatter(Y(:,1),Y(:,2),Va_La,'rkgbg','o*s^dx')
+
