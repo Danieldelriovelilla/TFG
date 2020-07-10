@@ -17,18 +17,19 @@
 \BOOKMARK [1][-]{section.3.2}{Pre-procesado de se\361ales}{chapter.3}% 17
 \BOOKMARK [2][-]{subsection.3.2.1}{Ensayo real}{section.3.2}% 18
 \BOOKMARK [2][-]{subsection.3.2.2}{FEM}{section.3.2}% 19
-\BOOKMARK [1][-]{section.3.3}{Construcci\363n del modelo de Deep Learning}{chapter.3}% 20
-\BOOKMARK [1][-]{section.3.4}{Resultados}{chapter.3}% 21
-\BOOKMARK [2][-]{subsection.3.4.1}{INESASSE}{section.3.4}% 22
-\BOOKMARK [0][-]{chapter.4}{Caracterizaci\363n de impactos para SHM}{}% 23
-\BOOKMARK [1][-]{section.4.1}{ Propuesta de ensayo experimental }{chapter.4}% 24
-\BOOKMARK [2][-]{subsection.4.1.1}{Impactador estructura}{section.4.1}% 25
-\BOOKMARK [2][-]{subsection.4.1.2}{Electr\363nica - Software y hardware}{section.4.1}% 26
-\BOOKMARK [2][-]{subsection.4.1.3}{Adquisici\363n y procesado de datos}{section.4.1}% 27
-\BOOKMARK [1][-]{section.4.2}{Caracterizaci\363n de la posici\363n}{chapter.4}% 28
-\BOOKMARK [1][-]{section.4.3}{Caracterizaci\363n de la energ\355a}{chapter.4}% 29
-\BOOKMARK [1][-]{section.4.4}{Caracterizaci\363n de la velocidad}{chapter.4}% 30
-\BOOKMARK [1][-]{section.4.5}{Caracterizaci\363n completa de un impacto}{chapter.4}% 31
-\BOOKMARK [0][-]{chapter.5}{Conclusiones y trabajos futuros}{}% 32
-\BOOKMARK [1][-]{section.5.1}{Conclusiones}{chapter.5}% 33
-\BOOKMARK [1][-]{section.5.2}{Trabajos futuros}{chapter.5}% 34
+\BOOKMARK [1][-]{section.3.3}{Deep Learning con sensores de deformaciones}{chapter.3}% 20
+\BOOKMARK [2][-]{subsection.3.3.1}{Visualizaci\363n del campo de deformaciones}{section.3.3}% 21
+\BOOKMARK [2][-]{subsection.3.3.2}{Arquitectura de la Red Neuronal}{section.3.3}% 22
+\BOOKMARK [2][-]{subsection.3.3.3}{Resultados de la clasificaci\363n}{section.3.3}% 23
+\BOOKMARK [0][-]{chapter.4}{Caracterizaci\363n de impactos para SHM}{}% 24
+\BOOKMARK [1][-]{section.4.1}{ Propuesta de ensayo experimental }{chapter.4}% 25
+\BOOKMARK [2][-]{subsection.4.1.1}{Impactador estructura}{section.4.1}% 26
+\BOOKMARK [2][-]{subsection.4.1.2}{Electr\363nica - Software y hardware}{section.4.1}% 27
+\BOOKMARK [2][-]{subsection.4.1.3}{Adquisici\363n y procesado de datos}{section.4.1}% 28
+\BOOKMARK [1][-]{section.4.2}{Caracterizaci\363n de la posici\363n}{chapter.4}% 29
+\BOOKMARK [1][-]{section.4.3}{Caracterizaci\363n de la energ\355a}{chapter.4}% 30
+\BOOKMARK [1][-]{section.4.4}{Caracterizaci\363n de la velocidad}{chapter.4}% 31
+\BOOKMARK [1][-]{section.4.5}{Caracterizaci\363n completa de un impacto}{chapter.4}% 32
+\BOOKMARK [0][-]{chapter.5}{Conclusiones y trabajos futuros}{}% 33
+\BOOKMARK [1][-]{section.5.1}{Conclusiones}{chapter.5}% 34
+\BOOKMARK [1][-]{section.5.2}{Trabajos futuros}{chapter.5}% 35

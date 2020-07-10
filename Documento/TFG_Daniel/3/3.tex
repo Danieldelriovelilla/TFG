@@ -317,13 +317,15 @@ Igual que se ha hecho con los FBGs, en las Figuras \ref{OBRR_dam} y \ref{OBRR_di
 
 \clearpage
 
-\section{Construcción del modelo de Deep Learning}
+\section{Deep Learning con sensores de deformaciones}
+
+\subsection{Visualización del campo de deformaciones}
 
 Una vez que se han procesado las deformaciones se tiene un \textit{Dataset} para los sensores FBG en el que cada muestra es de dimensión 20 (20 sensores) mientras que en el dataset de los sensores OBR las muestras son de dimensión 1499 (equivalente a tener 1499 sensores).
 
-Un ser humano no puede visualizar un espacio con tantas dimensiones. Esto hace complicado tener una idea de la distribución de las muestras y mucho menos imaginar como la red genera fronteras entre las distintas clases de datos( como se ha explicado en \hyperref[sec:funcionamiento_DL]{\textit{Representación gráfica del funcionamiento una NN}}).\\
+Un ser humano no puede visualizar un espacio con tantas dimensiones. Esto hace complicado tener una idea de la distribución espacial de las muestras y mucho menos imaginar las fronteras que genera la NN entre las distintas clases de datos (como se ha explicado en \hyperref[sec:funcionamiento_DL]{\textit{Representación gráfica del funcionamiento una NN}}).\\
 
-Para reducir la dimensionalidad de los datasets y tener una representación gráfica de ellos se va a utilizar un algoritmo de Machine Learning muy popular para la visualización de datos multidimansionales: \textbf{t-SNE (t-distributed Stochastic Neighbor Embedding)}. A continuación se va a hacer una rápida explicación del funcionamiento de este algoritmo \cite{t_sne}.\\
+Para reducir la dimensionalidad de los datasets y tener una representación gráfica bidimensional de ellos se va a utilizar un algoritmo de Machine Learning muy popular para la visualización de datos multidimansionales: \textbf{t-SNE (t-distributed Stochastic Neighbor Embedding)}. A continuación se va a hacer una breve introducción al funcionamiento de este algoritmo extraído de \cite{t_sne}.\\
 
 \textit{Stochastic Neighbor Embedding (SNE)} comienza convirtiendo las distancias euclideas entre puntos del dataset de alta dimensionalidad en probabilidades condicionales que representan su similitud. La similitud del punto $x_j$ con el punto $x_i$ es la probabilidad condicional $p_{j|i}$ y su proximidad se calcula usando una distribución de densidad de probabilidad gaussiana centrada en $x_i$. Para los puntos cercanos, el $p_{j|i}$ es relativamente alto, mientras que para los puntos lejanos, el $p_{j|i}$ será casi infinitesimal. Matemáticamente, el la probabilidad condicional $p_{j|i}$ viene dada por la Ecuación \ref{eq:prob_alta}.
 
@@ -351,52 +353,98 @@ Igual que para las NN, es necesario tener una función de costes que represente 
 \end{equation}
 \vspace{4pt}
 
-
-
-\section{Resultados}
-
-\subsection{INESASSE}
+Para ambos sensores se va a visualizar la similitud entre los distintos tipos de daño, su tamaño y la la carga aplicada.
 
 \begin{itemize}
-    \item[$\bullet$] \textbf{CLASIFICACIÓN DE CARGA}
-    
-    \begin{figure}[h!]
-        \centering
-        \includegraphics[width=150mm]{3/Fotos/Load_INESASSE_t-sne.png}
-        \captionsetup{justification=centering,margin=1.25cm}
-        \caption{Representación de los vectores de deformaciones tras reducir la dimensión de 20 a 2}
-        \label{def_h}
-    \end{figure}  
-    
-    \begin{figure}[h!]
-        \centering
-        \includegraphics[width=150mm]{3/Fotos/Load_INESASSE_confusion.png}
-        \captionsetup{justification=centering,margin=1.25cm}
-        \caption{Matriz de confusión}
-        \label{def_h}
-    \end{figure}  
-    
-    \item[$\bullet$] \textbf{CLASIFICACIÓN DE CASO DE DAÑO}
-    
-    \begin{figure}[h!]
+    \item[$\bullet$] \textbf{Sensores FBG}
+
+    \begin{figure}[H]
         \centering
         \includegraphics[width=150mm]{3/Fotos/Ty_Si_INESASSE_t-sne.png}
         \captionsetup{justification=centering,margin=1.25cm}
-        \caption{Representación de los vectores de deformaciones tras reducir la dimensión de 20 a 2}
-        \label{def_h}
+        \caption{Visualización de los distintos tamaños de daño}
+        \label{fig:tsne_FBG_Ty_Si}
     \end{figure}  
     
-    \begin{figure}[h!]
+    \begin{figure}[H]
         \centering
-        \includegraphics[width=150mm]{3/Fotos/Ty_Si_INESASSE_confusion.png}
+        \includegraphics[width=150mm]{3/Fotos/Load_INESASSE_t-sne.png}
         \captionsetup{justification=centering,margin=1.25cm}
-        \caption{Matriz de confusión}
-        \label{def_h}
-    \end{figure} 
+        \caption{Visualización de los distintos niveles de carga}
+        \label{fig:tsne_FBG_Load}
+    \end{figure}  
+    
+	\item[$\bullet$] \textbf{Sensores OBR}    
+    
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=150mm]{3/Fotos/tsne_Ty_Si_OBR_INESASSE.png}
+        \captionsetup{justification=centering,margin=1.25cm}
+        \caption{Visualización de los distintos tamaños de daño}
+        \label{fig:tsne_OBR_Ty_Si}
+    \end{figure}  
+    
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=150mm]{3/Fotos/tsne_Load_OBR_INESASSE.png}
+        \captionsetup{justification=centering,margin=1.25cm}
+        \caption{Visualización de los distintos niveles de carga}
+        \label{fig:tsne_OBR_Load}
+    \end{figure}      
+    
     
 \end{itemize}
 
+Aquí se puede ver claramente en las Figuras \ref{fig:tsne_FBG_Load} y \ref{fig:tsne_FBG_Load} que las muestras que están sometidas a un mismo nivel de carga están próximas en el espacio y separadas de los otros \textit{clusters} que forman el resto de cargas. En las Figuras \ref{fig:tsne_FBG_Ty_Si} y \ref{fig:tsne_FBG_Ty_Si} también se ven pequeños clusters de cada tipo de daño repartidos en grupos más grandes correspondientes a los distintos niveles de carga. Por lo tanto, las muestras se separan en clusters de niveles de carga (claramente diferenciados) y dentro de cada carga, se agrupan por tipo y tamaño de daño.
 
+
+\clearpage
+
+\subsection{Arquitectura de la Red Neuronal}
+
+\subsection{Resultados de la clasificación}
+
+\begin{itemize}
+    \item[$\bullet$] \textbf{Sensores FBG}
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=150mm]{3/Fotos/Ty_Si_INESASSE_confusion.png}
+        \captionsetup{justification=centering,margin=1.25cm}
+        \caption{Matriz de confusión: Tamaños de daño}
+        \label{fig:CM_FBG_Ty_Si}
+    \end{figure} 
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=150mm]{3/Fotos/Load_INESASSE_confusion.png}
+        \captionsetup{justification=centering,margin=1.25cm}
+        \caption{Matriz de confusión: Nivel de carga}
+        \label{fig:CM_FBG_Load}
+    \end{figure}  
+  
+    
+	\item[$\bullet$] \textbf{Sensores OBR}    
+    
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=150mm]{3/Fotos/CM_Ty_Si_OBR.png}
+        \captionsetup{justification=centering,margin=1.25cm}
+        \caption{Matriz de confusión: Tamaños de daño}
+        \label{fig:CM_OBR_Ty_Si}
+    \end{figure}  
+    
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=150mm]{3/Fotos/CM_Load_OBR.png}
+        \captionsetup{justification=centering,margin=1.25cm}
+        \caption{Matriz de confusión: Nivel de carga}
+        \label{fig:CM_OBR_Load}
+    \end{figure}      
+    
+    
+\end{itemize}
+	
 %------------------%
 
 

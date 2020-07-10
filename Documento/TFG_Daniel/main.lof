@@ -91,13 +91,21 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.20}{\ignorespaces Diferencia de los campos de deformaciones referenciado con el estado sin daño (OBR)\relax }}{29}{figure.caption.42}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.21}{\ignorespaces Representación de los vectores de deformaciones tras reducir la dimensión de 20 a 2\relax }}{31}{figure.caption.43}%
+\contentsline {figure}{\numberline {3.21}{\ignorespaces Visualización de los distintos tamaños de daño\relax }}{31}{figure.caption.43}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.22}{\ignorespaces Matriz de confusión\relax }}{32}{figure.caption.44}%
+\contentsline {figure}{\numberline {3.22}{\ignorespaces Visualización de los distintos niveles de carga\relax }}{32}{figure.caption.44}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.23}{\ignorespaces Representación de los vectores de deformaciones tras reducir la dimensión de 20 a 2\relax }}{33}{figure.caption.45}%
+\contentsline {figure}{\numberline {3.23}{\ignorespaces Visualización de los distintos tamaños de daño\relax }}{33}{figure.caption.45}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.24}{\ignorespaces Matriz de confusión\relax }}{34}{figure.caption.46}%
+\contentsline {figure}{\numberline {3.24}{\ignorespaces Visualización de los distintos niveles de carga\relax }}{34}{figure.caption.46}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.25}{\ignorespaces Matriz de confusión: Tamaños de daño\relax }}{35}{figure.caption.47}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.26}{\ignorespaces Matriz de confusión: Nivel de carga\relax }}{36}{figure.caption.48}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.27}{\ignorespaces Matriz de confusión: Tamaños de daño\relax }}{37}{figure.caption.49}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.28}{\ignorespaces Matriz de confusión: Nivel de carga\relax }}{38}{figure.caption.50}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
 \defcounter {refsection}{0}\relax 

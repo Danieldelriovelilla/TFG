@@ -6,10 +6,10 @@ Data_Path = 'C:\Users\danie\OneDrive - Universidad Politécnica de Madrid\TFG\Dat
 load([Data_Path 'LSTM_Struct.mat'])
 
 
-Tr_La = LSTM.Ty_Si_La_Tr;
-Tr_St = LSTM.Ty_Si_St_Tr;
-Va_La = LSTM.Ty_Si_La_Val;
-Va_St = LSTM.Ty_Si_St_Val;
+Tr_La = LSTM.Load_La_Tr;
+Tr_St = LSTM.Load_St_Tr;
+Va_La = LSTM.Load_La_Val;
+Va_St = LSTM.Load_St_Val;
 
 categ = categories(Tr_La);
 
@@ -34,7 +34,7 @@ validation_data = cell2mat(Va_St(:));
 
 validation = cat(2, labels_num, validation_data);
 
-save([Data_Path 'Type_OBR_INESASSE.mat'], 'training', 'validation')
+save([Data_Path 'Load_OBR_INESASSE.mat'], 'training', 'validation')
 
 
 %% T-SNE
