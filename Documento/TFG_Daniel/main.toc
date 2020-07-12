@@ -47,26 +47,26 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {3.3.3}Resultados de la clasificación}{35}{subsection.3.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {4}Caracterización de impactos para SHM}{39}{chapter.4}%
+\contentsline {chapter}{\numberline {4}Caracterización de impactos para SHM}{40}{chapter.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.1} Propuesta de ensayo experimental }{39}{section.4.1}%
+\contentsline {section}{\numberline {4.1} Propuesta de ensayo experimental }{40}{section.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.1}Impactador estructura}{39}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.1}Impactador estructura}{40}{subsection.4.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.2}Electrónica - Software y hardware}{39}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.2}Electrónica - Software y hardware}{40}{subsection.4.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1.3}Adquisición y procesado de datos}{39}{subsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.1.3}Adquisición y procesado de datos}{40}{subsection.4.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.2}Caracterización de la posición}{40}{section.4.2}%
+\contentsline {section}{\numberline {4.2}Caracterización de la posición}{41}{section.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.3}Caracterización de la energía}{41}{section.4.3}%
+\contentsline {section}{\numberline {4.3}Caracterización de la energía}{42}{section.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.4}Caracterización de la velocidad}{42}{section.4.4}%
+\contentsline {section}{\numberline {4.4}Caracterización de la velocidad}{43}{section.4.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4.5}Caracterización completa de un impacto}{43}{section.4.5}%
+\contentsline {section}{\numberline {4.5}Caracterización completa de un impacto}{44}{section.4.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {chapter}{\numberline {5}Conclusiones y trabajos futuros}{44}{chapter.5}%
+\contentsline {chapter}{\numberline {5}Conclusiones y trabajos futuros}{45}{chapter.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.1}Conclusiones}{44}{section.5.1}%
+\contentsline {section}{\numberline {5.1}Conclusiones}{45}{section.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5.2}Trabajos futuros}{45}{section.5.2}%
+\contentsline {section}{\numberline {5.2}Trabajos futuros}{46}{section.5.2}%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.7.5)  10 JUL 2020 18:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.7.5)  12 JUL 2020 12:44
 entering extended mode
 **./main.tex
 (main.tex
@@ -2005,34 +2005,33 @@ ASSE.png>]
 File: 3/Fotos/Ty_Si_INESASSE_confusion.png Graphic file (type png)
 <use 3/Fotos/Ty_Si_INESASSE_confusion.png>
 Package pdftex.def Info: 3/Fotos/Ty_Si_INESASSE_confusion.png  used on input li
-ne 412.
+ne 421.
 (pdftex.def)             Requested size: 426.79134pt x 426.77356pt.
-<3/Fotos/Load_INESASSE_confusion.png, id=667, 786.94pt x 786.94pt>
+ [35
+
+]
+<3/Fotos/Load_INESASSE_confusion.png, id=672, 786.94pt x 786.94pt>
 File: 3/Fotos/Load_INESASSE_confusion.png Graphic file (type png)
 <use 3/Fotos/Load_INESASSE_confusion.png>
 Package pdftex.def Info: 3/Fotos/Load_INESASSE_confusion.png  used on input lin
-e 420.
+e 429.
 (pdftex.def)             Requested size: 426.79134pt x 426.79047pt.
- [35
-
- <./3/Fotos/Ty_Si_INESASSE_confusion.png>]
-<3/Fotos/CM_Ty_Si_OBR.png, id=674, 1075.01625pt x 1076.02pt>
+ [36 <./3/Fotos/Ty_Si_INESASSE_confusion.png>]
+<3/Fotos/CM_Ty_Si_OBR.png, id=678, 1075.01625pt x 1076.02pt>
 File: 3/Fotos/CM_Ty_Si_OBR.png Graphic file (type png)
 <use 3/Fotos/CM_Ty_Si_OBR.png>
-Package pdftex.def Info: 3/Fotos/CM_Ty_Si_OBR.png  used on input line 431.
+Package pdftex.def Info: 3/Fotos/CM_Ty_Si_OBR.png  used on input line 440.
 (pdftex.def)             Requested size: 426.79134pt x 427.18231pt.
- [36 <./3/Fotos/Load_INESASSE_confusion.png>]
-<3/Fotos/CM_Load_OBR.png, id=680, 1076.02pt x 1076.02pt>
+ [37 <./3/Fotos/Load_INESASSE_confusion.png>]
+<3/Fotos/CM_Load_OBR.png, id=684, 1076.02pt x 1076.02pt>
 File: 3/Fotos/CM_Load_OBR.png Graphic file (type png)
 <use 3/Fotos/CM_Load_OBR.png>
-Package pdftex.def Info: 3/Fotos/CM_Load_OBR.png  used on input line 439.
+Package pdftex.def Info: 3/Fotos/CM_Load_OBR.png  used on input line 448.
 (pdftex.def)             Requested size: 426.79134pt x 426.78827pt.
- [37 <./3/Fotos/CM_Ty_Si_OBR.png>]) [38 <./3/Fotos/CM_Load_OBR.png>] (4/4.tex
+ [38 <./3/Fotos/CM_Ty_Si_OBR.png>]) [39 <./3/Fotos/CM_Load_OBR.png>] (4/4.tex
 Cap\'{\i }tulo 4.
-[39
+[40
 
-
-] [40
 
 ] [41
 
@@ -2040,17 +2039,19 @@ Cap\'{\i }tulo 4.
 
 ] [43
 
+] [44
+
 ]) (5/5.tex
 Cap\'{\i }tulo 5.
-[44
+[45
 
 
 
 ])
 
-LaTeX Warning: Citation 'einstein' on page 45 undefined on input line 124.
+LaTeX Warning: Citation 'einstein' on page 46 undefined on input line 124.
 
-[45
+[46
 
 ]
 
@@ -2084,8 +2085,8 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31127 strings out of 480790
- 600373 string characters out of 2898202
+ 31128 strings out of 480790
+ 600380 string characters out of 2898202
  1234433 words of memory out of 3000000
  46331 multiletter control sequences out of 15000+200000
  549568 words of font info for 96 fonts, out of 3000000 for 9000
@@ -2111,9 +2112,9 @@ nts/cm/cmsy8.pfb><D:/Archivos de programa/LaTeX_stuff/MiKTeX/fonts/type1/public
 /amsfonts/cm/cmti10.pfb><D:/Archivos de programa/LaTeX_stuff/MiKTeX/fonts/type1
 /public/amsfonts/cm/cmti9.pfb><D:/Archivos de programa/LaTeX_stuff/MiKTeX/fonts
 /type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (53 pages, 7881897 bytes).
+Output written on main.pdf (54 pages, 7883237 bytes).
 PDF statistics:
- 814 PDF objects out of 1000 (max. 8388607)
- 160 named destinations out of 1000 (max. 500000)
+ 818 PDF objects out of 1000 (max. 8388607)
+ 161 named destinations out of 1000 (max. 500000)
  508 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -402,7 +402,16 @@ Aquí se puede ver claramente en las Figuras \ref{fig:tsne_FBG_Load} y \ref{fig:
 
 \subsection{Arquitectura de la Red Neuronal}
 
+En este apartado se tiene que explicar la arquitectura escogida. Tengo que encontrar una forma buena de pintarlo.
+
+
 \subsection{Resultados de la clasificación}
+
+Una buena forma de representar el funcionamiento de una NN en la tarea de clasificación es mediante el uso de Matrices de Confusión (CM).\\
+
+En estas matrices, cada columna pertenece a una única clase. Al introducir un campo de deformaciones etiquetado como una clase en concreto (D01-R03), la red, después de realizar todas las operaciones definidas por su arquitectura, sacará una clase como output. Entonces, si se ha realizado una clasificación exitosa, la CM sumará en la columna D01-R03 y fila D01-R03 una unidad. Sin embargo, si clasifica erróneamente, sumará uno en una fila diferente. 
+
+Por lo tanto, cuanto mayor sea el valor de las celdas de la diagonal principal de la CM, mejor realizará la red la tarea de clasificación.
 
 \begin{itemize}
     \item[$\bullet$] \textbf{Sensores FBG}
