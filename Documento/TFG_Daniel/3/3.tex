@@ -299,25 +299,17 @@ Igual que se ha hecho con los FBGs, en las Figuras \ref{OBRR_dam} y \ref{OBRR_di
     \caption{Diferencia de los campos de deformaciones referenciado con el estado sin daño (OBR)}
     \label{OBRR_dif}
 \end{figure}
-    
-    
-%----------%
-    
-\subsection{FEM}
-    
-% A diferencia del ensayo de la estructura real, las simulaciones solo se han realizado introduciendo la carga máxima puesto que se supone que que el material no supera el límite elástico y, por lo tanto el campo de deformaciones de la estructura es proporcional a la carga aplicada. 
-    
-% Para obtener los niveles de carga como en el ensayo lo que se ha hecho es multiplicar las deformaciones por un factor de carga con un mínimo de 30\% y espaciados en intervalos de 10\% (8 en total).\\
-    
+
 
 \url{https://towardsdatascience.com/hands-on-graph-neural-networks-with-pytorch-pytorch-geometric-359487e221a8}
+
+\clearpage
 
 
 %  -----------------------------------------  %
 
-\clearpage
 
-\section{Deep Learning con sensores de deformaciones}
+\section{Aplicación de DL al a la detección de daños mediante sensores de deformaciones}
 
 \subsection{Visualización del campo de deformaciones}
 
@@ -360,7 +352,7 @@ Para ambos sensores se va a visualizar la similitud entre los distintos tipos de
 
     \begin{figure}[H]
         \centering
-        \includegraphics[width=150mm]{3/Fotos/Ty_Si_INESASSE_t-sne.png}
+        \includegraphics[width=125mm]{3/Fotos/Ty_Si_INESASSE_t-sne.png}
         \captionsetup{justification=centering,margin=1.25cm}
         \caption{Visualización de los distintos tamaños de daño}
         \label{fig:tsne_FBG_Ty_Si}
@@ -368,7 +360,7 @@ Para ambos sensores se va a visualizar la similitud entre los distintos tipos de
     
     \begin{figure}[H]
         \centering
-        \includegraphics[width=150mm]{3/Fotos/Load_INESASSE_t-sne.png}
+        \includegraphics[width=125mm]{3/Fotos/tsne_Load_INESASSE.pdf}
         \captionsetup{justification=centering,margin=1.25cm}
         \caption{Visualización de los distintos niveles de carga}
         \label{fig:tsne_FBG_Load}
@@ -378,7 +370,7 @@ Para ambos sensores se va a visualizar la similitud entre los distintos tipos de
     
     \begin{figure}[H]
         \centering
-        \includegraphics[width=150mm]{3/Fotos/tsne_Ty_Si_OBR_INESASSE.png}
+        \includegraphics[width=125mm]{3/Fotos/tsne_Ty_Si_OBR_INESASSE.png}
         \captionsetup{justification=centering,margin=1.25cm}
         \caption{Visualización de los distintos tamaños de daño}
         \label{fig:tsne_OBR_Ty_Si}
@@ -386,7 +378,7 @@ Para ambos sensores se va a visualizar la similitud entre los distintos tipos de
     
     \begin{figure}[H]
         \centering
-        \includegraphics[width=150mm]{3/Fotos/tsne_Load_OBR_INESASSE.png}
+        \includegraphics[width=125mm]{3/Fotos/tsne_Load_OBR_INESASSE.png}
         \captionsetup{justification=centering,margin=1.25cm}
         \caption{Visualización de los distintos niveles de carga}
         \label{fig:tsne_OBR_Load}
@@ -400,9 +392,16 @@ Aquí se puede ver claramente en las Figuras \ref{fig:tsne_FBG_Load} y \ref{fig:
 
 \clearpage
 
+
+% -- -- %
+
+
 \subsection{Arquitectura de la Red Neuronal}
 
 En este apartado se tiene que explicar la arquitectura escogida. Tengo que encontrar una forma buena de pintarlo.
+
+
+% -- -- %
 
 
 \subsection{Resultados de la clasificación}
@@ -418,7 +417,7 @@ Por lo tanto, cuanto mayor sea el valor de las celdas de la diagonal principal d
 
     \begin{figure}[H]
         \centering
-        \includegraphics[width=150mm]{3/Fotos/Ty_Si_INESASSE_confusion.png}
+        \includegraphics[width=125mm]{3/Fotos/Ty_Si_INESASSE_confusion.png}
         \captionsetup{justification=centering,margin=1.25cm}
         \caption{Matriz de confusión: Tamaños de daño}
         \label{fig:CM_FBG_Ty_Si}
@@ -426,7 +425,7 @@ Por lo tanto, cuanto mayor sea el valor de las celdas de la diagonal principal d
 
     \begin{figure}[H]
         \centering
-        \includegraphics[width=150mm]{3/Fotos/Load_INESASSE_confusion.png}
+        \includegraphics[width=125mm]{3/Fotos/Load_INESASSE_confusion.png}
         \captionsetup{justification=centering,margin=1.25cm}
         \caption{Matriz de confusión: Nivel de carga}
         \label{fig:CM_FBG_Load}
@@ -437,7 +436,7 @@ Por lo tanto, cuanto mayor sea el valor de las celdas de la diagonal principal d
     
     \begin{figure}[H]
         \centering
-        \includegraphics[width=150mm]{3/Fotos/CM_Ty_Si_OBR.png}
+        \includegraphics[width=125mm]{3/Fotos/CM_Ty_Si_OBR.png}
         \captionsetup{justification=centering,margin=1.25cm}
         \caption{Matriz de confusión: Tamaños de daño}
         \label{fig:CM_OBR_Ty_Si}
@@ -445,7 +444,7 @@ Por lo tanto, cuanto mayor sea el valor de las celdas de la diagonal principal d
     
     \begin{figure}[H]
         \centering
-        \includegraphics[width=150mm]{3/Fotos/CM_Load_OBR.png}
+        \includegraphics[width=125mm]{3/Fotos/CM_Load_OBR.png}
         \captionsetup{justification=centering,margin=1.25cm}
         \caption{Matriz de confusión: Nivel de carga}
         \label{fig:CM_OBR_Load}
@@ -453,6 +452,129 @@ Por lo tanto, cuanto mayor sea el valor de las celdas de la diagonal principal d
     
     
 \end{itemize}
+
+
+%  -----------------------------------------  %
+
+
+\clearpage
+
+\section{Aplicación de DL al a la detección de cargas térmicas}
+
+En una estructura aeronáutica no solo los daños provocan cambios en le campo de deformaciones, la temperatura también es un factor importante a tener en cuenta. Una aeronave puede estar sometida 50ºC en tierra y a -50ºC durante un vuelo. Este amplio rango de temperaturas genera cargas y deformaciones de un valor equivalente a las aerodinámicas.
+
+Cuando la temperatura no es uniforme puede generar concentración de tensiones equivalentes a las que provoca un daño localizado, por lo que su estudio es apropiado en SHM.\\
+
+Ya que este trabajo consiste en un una primera aproximación al uso de DL para la detección de cargas térmicas, solo se va a estudiar el caso de varias temperaturas uniformemente distribuidas.
+
+
+% -- -- %
+
+
+\subsection{Estructura bajo estudio}
+
+Muchas de las estructuras aeronáuticas se pueden considerar vigas. Dependiendo de las cargas que vayan a soportar durante la operación, estas vigas estarán formados por unos componentes u otros.
+
+\begin{figure}[h!]
+ \centering
+  \subfloat[Diagrama de una semiala]{
+    \includegraphics[width=75mm]{3/Fotos/semiala_diagama.jpg}
+    \label{fig:semiala}}
+  \subfloat[Diagrama de un fuselaje]{
+    \includegraphics[width=65mm]{3/Fotos/fuselage_diagam.png}
+    \label{fig:fuselage}}
+    \caption{Diagramas de estructuras aeronáuticas}
+    \label{fig:estructuras}
+\end{figure}
+
+En la Figura \ref{fig:estructuras} se puede comparar una semiala con un fuselaje. Las semialas están sometidas a flexión y torsión, por ello estás formadas por larguerillos y costillas, sin embargo el fuselaje no trabaja a torsión, por lo que no tiene costillas.\\
+
+Este estudio se ha centrado en la influencia de diferentes temperaturas sobre una viga con forma de omega y 4 costillas equiespaciadas, igual a la que se ve en la Figura \ref{fig:viga_real}. 
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=100mm]{3/Fotos/Viga_Real.jpg}
+    \captionsetup{justification=centering,margin=1.25cm}
+    \caption{Imagen de la viga que se va a estudiar}
+    \label{fig:viga_real}
+\end{figure}     
+
+Para obtener las deformaciones necesarias con las que se alimentará a la red se ha creado un modelo de elementos finitos (FEM). Las partes que forman el conjunto son los siguientes:
+\begin{itemize}
+    \item[$\bullet$] Tapa superior e inferior fabricada con laminado de 10mm
+    \item[$\bullet$] Lateral izquiero y derecho fabricada con laminado de 4mm
+    \item[$\bullet$] Costillas fabricadas con laminado de 4mm
+\end{itemize}
+
+Las características de los laminados se pueden ver en la Tabla \ref{tab:laminados}
+
+\begin{table}[H]
+    %\small
+    \centering
+    \begin{tabular}{|c|c|c|c|}
+        \hline
+        \textbf{Espesor laminado} & \textbf{Esperor capa} & \textbf{Número de capas} & \textbf{Orientación}\\ \hline
+        10       & 0.2       & 50         & $[(\pm45, 90, 0, 90), 0_{15}]_{S}$  \\  \hline
+        4        & 0.2       & 20         & $[(\pm45, 90, 0_{7}]_{S}$  \\\hline
+    \end{tabular}
+    \caption{Laminados} 
+   \label{tab:laminados}
+\end{table}
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=150mm]{3/Fotos/L_BC.PNG}
+    \captionsetup{justification=centering,margin=1.25cm}
+    \caption{Viga con condiciones de contorno aplicadas}
+    \label{fig:viga_bc}
+\end{figure}     
+
+En la Figura \ref{fig:viga_bc} se puede ver la viga ya en Patran después de haber creado las superficies y elementos y haber aplicado las condiciones de contorno. 
+
+Las condiciones de contorno son las siguientes:
+
+\begin{itemize}
+    \item[$\bullet$] Carga vertical sobre distribuida sobre la parte superior de las costillas centrales
+    \item[$\bullet$] Empotramiento de los nodos correspondientes a la parte inferior de los laterales.
+\end{itemize}
+
+
+% -- -- %
+
+
+\subsection{Definición de daños y sensores}
+
+En esta sección no solo se va a buscar clasificar la temperatura de una estructura, sino que también se le van a añadir dos tipos de daños típicos en estructuras de material compuesto.
+
+Estos daños van van a ser los siguientes:
+\begin{itemize}
+    \item[$\bullet$] Despegue parcial de la tapa superior y uno de los laterales. Este daño se va a llamar D01
+    \item[$\bullet$] Empotramiento de los nodos correspondientes a la parte inferior de los laterales.
+\end{itemize}
+
+
+Para obtener las deformaciones, se van a utilizar varias filas de elementos orientados en una misma dirección global. Con esto se consigue simular un sensor OBR similar al que se usó en el proyecto INESASSE. Se pueden ver los elementos que se han seleccionada para hacer de sensor OBR en la Figura \ref{fig:sensors}.
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=150mm]{3/Fotos/Sensors.png}
+    \captionsetup{justification=centering,margin=1.25cm}
+    \caption{Tiras de sensores de los que se van a extraer las deformaciones}
+    \label{fig:sensors}
+\end{figure}  
+
+
+% -- -- %
+
+
+
+
+
+
+
+
+
+
 	
 %------------------%
 

@@ -422,9 +422,11 @@ Una vez se conocen los dos grupos que se busca clasificar se va a comenzar la de
     
     Como se representa en la Figura \ref{capas}, las capas se pueden concatenar de manera secuencial, una detrás de otra y dependiendo de dónde estén colocadas tendrán un nombre u otro. La capa que recibe primero los argumentos de entrada se llama \textit{Input layer}, la que calcula el argumento de salida se llama \textit{Output layer} y todas las capas que estén entre estas dos, se llamarán \textit{Hidden layers}. 
     
-    La concatenación secuencial de las capas hace que la red sea capaz de aprender conocimiento jerarquizado y es lo que da nombre al Deep Learning (Aprendizaje Profundo). Dicho de otro modo, si a la red se le introduce una imagen de un coche, es capaz de aprender que un coche no es un único objeto, una capa sintetiza lo que es una rueda, la siguiente lo que es una puerta y las últimas capas son capaces de juntar toda esa información para construir la idea de coche como un conjunto de objetos.
+    La concatenación secuencial de las capas hace que la red sea capaz de aprender conocimiento jerarquizado y es lo que da nombre al Deep Learning (Aprendizaje Profundo). Dicho de otro modo, si a la red se le introduce una imagen de un coche, es capaz de aprender que un coche no es un objeto único, una capa sintetiza lo que es una rueda, la siguiente lo que es una puerta y las últimas capas son capaces de juntar toda esa información para construir la idea de coche como un conjunto de objetos.
     
     Las neuronas dentro de la misma capa lo que permiten es diversificar el conocimiento. Cada neurona se especializa en una parte de la información ajustando los pesos para dar más importancia a un canal de entrada u otro.
+    
+    Juntando lo explicado anteriormente se entiende mejor este concepto de aprendizaje. Una red parte de una cantidad grande de datos, los píxeles de una imagen, por ejemplo. La capa de entrada será la que primero reciba la información, por ello necesitará muchas neuronas para procesarla y extraer de ella qué zonas de la imagen son más importantes. A medida que se va avanzando, cada una de las capas tiene que desglosar cada vez más la información sintetizada que le ha llegado de la capa anterior, por lo que necesitará menos neuronas, su nivel de abstracción de conocimiento aumenta.
     
     \begin{figure}[h!]
         \centering

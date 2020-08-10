@@ -99,14 +99,72 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3.24}{\ignorespaces Visualización de los distintos niveles de carga\relax }}{34}{figure.caption.46}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.25}{\ignorespaces Matriz de confusión: Tamaños de daño\relax }}{36}{figure.caption.47}%
+\contentsline {figure}{\numberline {3.25}{\ignorespaces Matriz de confusión: Tamaños de daño\relax }}{35}{figure.caption.47}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.26}{\ignorespaces Matriz de confusión: Nivel de carga\relax }}{37}{figure.caption.48}%
+\contentsline {figure}{\numberline {3.26}{\ignorespaces Matriz de confusión: Nivel de carga\relax }}{36}{figure.caption.48}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.27}{\ignorespaces Matriz de confusión: Tamaños de daño\relax }}{38}{figure.caption.49}%
+\contentsline {figure}{\numberline {3.27}{\ignorespaces Matriz de confusión: Tamaños de daño\relax }}{37}{figure.caption.49}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3.28}{\ignorespaces Matriz de confusión: Nivel de carga\relax }}{39}{figure.caption.50}%
+\contentsline {figure}{\numberline {3.28}{\ignorespaces Matriz de confusión: Nivel de carga\relax }}{38}{figure.caption.50}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.29}{\ignorespaces Diagramas de estructuras aeronáuticas\relax }}{39}{figure.caption.51}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Diagrama de una semiala}}}{39}{subfigure.29.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Diagrama de un fuselaje}}}{39}{subfigure.29.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.30}{\ignorespaces Imagen de la viga que se va a estudiar\relax }}{40}{figure.caption.52}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.31}{\ignorespaces Viga con condiciones de contorno aplicadas\relax }}{40}{figure.caption.54}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {3.32}{\ignorespaces Tiras de sensores de los que se van a extraer las deformaciones\relax }}{41}{figure.caption.55}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Costillas en una semiala del Airbus A380\relax }}{42}{figure.caption.56}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Estructura en estudio instrumentada\relax }}{43}{figure.caption.57}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Discretización de la superficie de la costilla\relax }}{43}{figure.caption.58}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Representación simplificada de la aquitectura de una red GAN\relax }}{45}{figure.caption.59}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Diferentes ejemplos de impactos\relax }}{46}{figure.caption.60}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Muestra 1 de impacto en celda 11}}}{46}{subfigure.5.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Muestra 2 de impacto en celda 11}}}{46}{subfigure.5.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Muestra 1 de impacto en celda 72}}}{46}{subfigure.5.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Muestra 2 de impacto en celda 72}}}{46}{subfigure.5.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Diagrama de bloques del funcionamiento de TimeGAN\relax }}{49}{figure.caption.61}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Diferentes ejemplos de impactos generados sintéticamente con TimeGAN\relax }}{50}{figure.caption.62}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Muestra 1 de impacto en celda 11}}}{50}{subfigure.7.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Muestra 2 de impacto en celda 11}}}{50}{subfigure.7.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Muestra 1 de impacto en celda 72}}}{50}{subfigure.7.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Muestra 2 de impacto en celda 72}}}{50}{subfigure.7.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.8}{\ignorespaces t-SNE de las celdas 11, 12, 13, 14, 21, 22, 23, 24, 31, 32, 33, 34\relax }}{51}{figure.caption.63}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.9}{\ignorespaces t-SNE de las celdas 41, 42, 43, 44, 51, 52, 53, 54, 61, 62, 63, 64\relax }}{51}{figure.caption.64}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.10}{\ignorespaces t-SNE de las celdas 71, 72, 73, 74, 81, 82, 83, 84, 91, 92, 93, 94\relax }}{52}{figure.caption.65}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.11}{\ignorespaces t-SNE de las celdas 15, 16, 17, 18, 25, 26, 27, 28, 35, 36, 37, 38\relax }}{52}{figure.caption.66}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.12}{\ignorespaces t-SNE de las celdas 45, 46, 47, 48, 55, 56, 57, 58, 65, 66, 67, 68\relax }}{53}{figure.caption.67}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.13}{\ignorespaces t-SNE de las celdas 75, 76, 77, 78, 85, 86, 87, 88, 95, 96, 97, 98\relax }}{53}{figure.caption.68}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Matriz de confusión con los impactos sintéticos: \textbf {PRECISIÓN 99,38\%}\relax }}{55}{figure.caption.69}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Matriz de confusión con los impactos reales: \textbf {PRECISIÓN 86,86\%}\relax }}{56}{figure.caption.70}%
 \defcounter {refsection}{0}\relax 
 \addvspace {10\p@ }

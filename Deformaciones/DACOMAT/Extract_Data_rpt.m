@@ -30,8 +30,8 @@ S6 = [701:750];
 S7 = [1251:1300];
 S8 = [951:1000];
 
-%Sensors = [S1; S2; S3; S4; S5; S6; S7; S8]; %Elements number
-Sensors = [S3; S4; S5; S6]; %Elements number
+Sensors = [S1; S2; S3; S4; S5; S6; S7; S8]; %Elements number
+%Sensors = [S3; S4; S5; S6]; %Elements number
 
 
 %%  PUNCTUAL LOAD  %%
@@ -47,7 +47,7 @@ Noise = [0:5:25];
 repeat = 10;
 
 %Punctual load Strains
-figure
+h = figure();
 for i = 1:length(FileNames)
     Element_Position = [];    
     %Extract the information of the sensors' elements
@@ -88,7 +88,7 @@ Tr = 180;
 dT = [-10:10:40] - Tr;
 Data_T = Data(2:2:end);
 
-figure()
+h = figure();
 for i = 1:length(Data_T)    %Link temperature change and the deformation
     %Thermal strains
     for i2 = 1:length(dT)
@@ -105,6 +105,23 @@ for i = 1:length(Data_T)    %Link temperature change and the deformation
     plot(Data_T(i).Strains(20,:))
     hold on
 end
+%{
+    hold on;
+    plot(Data(1).Strains(:,14))
+    reescalados = Index_Change*(-150) + 15;
+    plot(reescalados)
+    axis([0 3075 -135 5])
+
+    xlabel('Tiempo','Interpreter','latex')
+    ylabel('Deformacion','Interpreter','latex')
+    title(['\textbf{D01-01R: sensor 14}'],'Interpreter','latex')
+    %legend(leg)
+
+    set(h,'Units','Inches');
+    pos = get(h,'Position');
+    set(h,'PaperPositionMode','Auto','PaperUnits','Inches','PaperSize',[pos(3), pos(4)])
+    print(h,'TFG_Figures\Saltos_FBG','-dpdf','-r0')
+%}
 
 
 %%  GENERATE THE LSTM TRUCTURE AND ORGANIZE THE DATA  %%
@@ -142,4 +159,4 @@ legend(leg)
 title('Deformaciones por la diferencia de temperatura: ref 180ºC')
 %}
 
-save('Data\LSTM_Data', 'Data_T', 'LSTM')
+save('C:\Users\danie\OneDrive - Universidad Politécnica de Madrid\TFG\Datos_TFG\Deformaciones\DACOMAT\LSTM_Data', 'Data_T', 'LSTM')

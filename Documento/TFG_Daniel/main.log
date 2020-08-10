@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.7.5)  12 JUL 2020 12:44
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.6.29) (preloaded format=pdflatex 2020.7.5)  7 AUG 2020 13:28
 entering extended mode
 **./main.tex
 (main.tex
@@ -265,6 +265,25 @@ Package caption Info: float package is loaded.
 \c@lotdepth=\count269
 \sf@top=\skip58
 \sf@bottom=\skip59
+) ("D:\Archivos de programa\LaTeX_stuff\MiKTeX\tex/latex/caption\subcaption.sty
+"
+Package: subcaption 2020/01/22 v1.3d Sub-captions (AR)
+
+! Package subcaption Error: This package can't be used in cooperation
+(subcaption)                with the subfig package.
+
+See the subcaption package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.62 \subcaption@CheckCompatibility
+                                   
+If you do not understand this error, please take a closer look
+at the documentation of the `subcaption' package, especially the
+section about errors.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
 ) ("D:\Archivos de programa\LaTeX_stuff\MiKTeX\tex/latex/sidecap\sidecap.sty"
 Package: sidecap 2003/06/06 v1.6f SideCap Package (RN/HjG)
 
@@ -1200,48 +1219,26 @@ ode.def"
 File: l3backend-pdfmode.def 2020-06-29 L3 backend support: PDF mode
 \l__kernel_color_stack_int=\count455
 \l__pdf_internal_box=\box118
-) (main.aux
-LaTeX Info: Redefining \. on input line 29.
-LaTeX Info: Redefining \% on input line 29.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `sub@' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `sub@' multiply defined.
-
-
-LaTeX Warning: Label `' multiply defined.
-
-
-LaTeX Warning: Label `sub@' multiply defined.
-
 )
+No file main.aux.
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 91.
-LaTeX Font Info:    ... okay on input line 91.
-
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 92.
+LaTeX Font Info:    ... okay on input line 92.
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -1277,8 +1274,8 @@ LaTeX Font Info:    ... okay on input line 91.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \. on input line 91.
-LaTeX Info: Redefining \% on input line 91.
+LaTeX Info: Redefining \. on input line 92.
+LaTeX Info: Redefining \% on input line 92.
 
 ("D:\Archivos de programa\LaTeX_stuff\MiKTeX\tex/context/base/mkii\supp-pdf.mki
 i"
@@ -1325,7 +1322,7 @@ LaTeX Info: Redefining \selectfont on input line 126.
 \JustifyingParindent=\skip113
 )
 \AtBeginShipoutBox=\box120
-Package hyperref Info: Link coloring OFF on input line 91.
+Package hyperref Info: Link coloring OFF on input line 92.
 
 ("D:\Archivos de programa\LaTeX_stuff\MiKTeX\tex/latex/hyperref\nameref.sty"
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -1339,10 +1336,9 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count462
 )
-LaTeX Info: Redefining \ref on input line 91.
-LaTeX Info: Redefining \pageref on input line 91.
-LaTeX Info: Redefining \nameref on input line 91.
- (main.out) (main.out)
+LaTeX Info: Redefining \ref on input line 92.
+LaTeX Info: Redefining \pageref on input line 92.
+LaTeX Info: Redefining \nameref on input line 92.
 \@outlinefile=\write5
 \openout5 = `main.out'.
 
@@ -1367,10 +1363,10 @@ Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' not found.
 
 No file main.bbl.
-Package biblatex Info: Reference section=0 on input line 91.
-Package biblatex Info: Reference segment=0 on input line 91.
+Package biblatex Info: Reference section=0 on input line 92.
+Package biblatex Info: Reference segment=0 on input line 92.
 ABD: EveryShipout initializing macros (Portada/Portada.tex
-<Portada.pdf, id=146, 597.79335pt x 845.19763pt>
+<Portada.pdf, id=6, 597.79335pt x 845.19763pt>
 File: Portada.pdf Graphic file (type pdf)
 <use Portada.pdf>
 Package pdftex.def Info: Portada.pdf  used on input line 2.
@@ -1379,7 +1375,7 @@ File: Portada.pdf Graphic file (type pdf)
 <use Portada.pdf>
 Package pdftex.def Info: Portada.pdf  used on input line 2.
 (pdftex.def)             Requested size: 597.79189pt x 845.19557pt.
-<Portada.pdf, id=149, page=1, 597.79335pt x 845.19763pt>
+<Portada.pdf, id=9, page=1, 597.79335pt x 845.19763pt>
 File: Portada.pdf Graphic file (type pdf)
 <use Portada.pdf, page 1>
 Package pdftex.def Info: Portada.pdf , page1 used on input line 2.
@@ -1420,50 +1416,31 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
 
-) [1{C:/Users/danie/AppData/Local/MiKTeX/pdftex/config/pdftex.map}] (main.toc
-LaTeX Info: Redefining \. on input line 2.
-LaTeX Info: Redefining \% on input line 2.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 8.
-
-("D:\Archivos de programa\LaTeX_stuff\MiKTeX\tex/latex/amsfonts\umsa.fd"
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 8.
-
-("D:\Archivos de programa\LaTeX_stuff\MiKTeX\tex/latex/amsfonts\umsb.fd"
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 8.
-
-
-("D:\Archivos de programa\LaTeX_stuff\MiKTeX\tex/latex/base\ulasy.fd"
-File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
-))
+) [1{C:/Users/danie/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
 \tf@toc=\write6
 \openout6 = `main.toc'.
 
-
-[2
-
-
-] [3] (main.lof
-LaTeX Info: Redefining \. on input line 2.
-LaTeX Info: Redefining \% on input line 2.
- [4
+ [2
 
 
-])
+]
+
+Package hyperref Warning: old lof file detected, not used; run LaTeX again.
+
 \tf@lof=\write7
 \openout7 = `main.lof'.
 
- [5] (main.lot
-LaTeX Info: Redefining \. on input line 2.
-LaTeX Info: Redefining \% on input line 2.
-)
+[3
+
+
+]
+
+Package hyperref Warning: old lot file detected, not used; run LaTeX again.
+
 \tf@lot=\write8
 \openout8 = `main.lot'.
 
- [6
+[4
 
 
 ] (1/1.tex
@@ -1511,7 +1488,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--26
 
  []
 
+LaTeX Font Info:    Trying to load font information for U+msa on input line 29.
 
+("D:\Archivos de programa\LaTeX_stuff\MiKTeX\tex/latex/amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 29.
+
+
+("D:\Archivos de programa\LaTeX_stuff\MiKTeX\tex/latex/amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 29
+.
+
+("D:\Archivos de programa\LaTeX_stuff\MiKTeX\tex/latex/base\ulasy.fd"
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
 Underfull \hbox (badness 10000) in paragraph at lines 29--30
 
  []
@@ -1545,6 +1538,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 40--41
  []
 
 
+LaTeX Warning: Reference `sistema' on page 4 undefined on input line 42.
+
+
 LaTeX Warning: Citation 'Jaime_Tesis' on page 4 undefined on input line 42.
 
 [4]
@@ -1552,7 +1548,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 90--91
 
  []
 
-<2/Fotos/Aircraft_Sress.png, id=365, 616.55344pt x 359.84438pt>
+<2/Fotos/Aircraft_Sress.png, id=86, 616.55344pt x 359.84438pt>
 File: 2/Fotos/Aircraft_Sress.png Graphic file (type png)
 <use 2/Fotos/Aircraft_Sress.png>
 Package pdftex.def Info: 2/Fotos/Aircraft_Sress.png  used on input line 98.
@@ -1566,6 +1562,12 @@ LaTeX Warning: Citation 'criterios' on page 5 undefined on input line 123.
 
 LaTeX Warning: Citation 'criterios' on page 5 undefined on input line 123.
 
+
+LaTeX Warning: Reference `stress' on page 5 undefined on input line 128.
+
+
+LaTeX Warning: Reference `des_cri' on page 5 undefined on input line 128.
+
 [5] [6 <./2/Fotos/Aircraft_Sress.png>]
 
 LaTeX Warning: Citation 'TensorFlow_playground' on page 7 undefined on input li
@@ -1576,7 +1578,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 273--274
 
  []
 
-<2/Fotos/datos.png, id=384, 194.97844pt x 192.72pt>
+
+LaTeX Warning: Reference `datos' on page 7 undefined on input line 277.
+
+<2/Fotos/datos.png, id=106, 194.97844pt x 192.72pt>
 File: 2/Fotos/datos.png Graphic file (type png)
 <use 2/Fotos/datos.png>
 Package pdftex.def Info: 2/Fotos/datos.png  used on input line 281.
@@ -1584,73 +1589,120 @@ Package pdftex.def Info: 2/Fotos/datos.png  used on input line 281.
 [7
 
  <./2/Fotos/datos.png>]
-<2/Fotos/neurona.png, id=397, 194.22563pt x 193.47281pt>
+
+LaTeX Warning: Reference `perceptron' on page 8 undefined on input line 294.
+
+
+LaTeX Warning: Reference `neurona' on page 8 undefined on input line 349.
+
+<2/Fotos/neurona.png, id=121, 194.22563pt x 193.47281pt>
 File: 2/Fotos/neurona.png Graphic file (type png)
 <use 2/Fotos/neurona.png>
 Package pdftex.def Info: 2/Fotos/neurona.png  used on input line 353.
 (pdftex.def)             Requested size: 170.71652pt x 170.05879pt.
- [8 <./2/Fotos/neurona.png>]
-<2/Fotos/capas.png, id=406, 745.28438pt x 194.97844pt>
+[8 <./2/Fotos/neurona.png>]
+
+LaTeX Warning: Reference `capas' on page 9 undefined on input line 423.
+
+[9]
+<2/Fotos/capas.png, id=139, 745.28438pt x 194.97844pt>
 File: 2/Fotos/capas.png Graphic file (type png)
 <use 2/Fotos/capas.png>
-Package pdftex.def Info: 2/Fotos/capas.png  used on input line 431.
+Package pdftex.def Info: 2/Fotos/capas.png  used on input line 433.
 (pdftex.def)             Requested size: 384.1122pt x 100.4879pt.
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+LaTeX Warning: Reference `aplicacion_capas' on page 10 undefined on input line 
+439.
 
-[9]
-<2/Fotos/activation_functions.png, id=416, 1196.47pt x 512.91624pt>
+
+LaTeX Warning: Reference `eq:percepron' on page 10 undefined on input line 500.
+
+
+<2/Fotos/activation_functions.png, id=140, 1196.47pt x 512.91624pt>
 File: 2/Fotos/activation_functions.png Graphic file (type png)
 <use 2/Fotos/activation_functions.png>
 Package pdftex.def Info: 2/Fotos/activation_functions.png  used on input line 5
-03.
+05.
 (pdftex.def)             Requested size: 384.1122pt x 164.66875pt.
-
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+
+LaTeX Warning: Reference `activation_functions' on page 10 undefined on input l
+ine 511.
+
 [10 <./2/Fotos/capas.png>]
-<2/Fotos/single_sigmoid.pdf, id=426, 421.575pt x 316.18124pt>
+
+LaTeX Warning: Reference `single_sigmoid' on page 11 undefined on input line 51
+3.
+
+
+LaTeX Warning: Reference `single_sigmoid' on page 11 undefined on input line 51
+5.
+
+
+LaTeX Warning: Reference `neurona' on page 11 undefined on input line 515.
+
+<2/Fotos/single_sigmoid.pdf, id=148, 421.575pt x 316.18124pt>
 File: 2/Fotos/single_sigmoid.pdf Graphic file (type pdf)
 <use 2/Fotos/single_sigmoid.pdf>
-Package pdftex.def Info: 2/Fotos/single_sigmoid.pdf  used on input line 521.
+Package pdftex.def Info: 2/Fotos/single_sigmoid.pdf  used on input line 523.
 (pdftex.def)             Requested size: 199.16928pt x 149.37712pt.
-<2/Fotos/single_sigmoid_top.pdf, id=427, 421.575pt x 316.18124pt>
+<2/Fotos/single_sigmoid_top.pdf, id=149, 421.575pt x 316.18124pt>
 File: 2/Fotos/single_sigmoid_top.pdf Graphic file (type pdf)
 <use 2/Fotos/single_sigmoid_top.pdf>
-Package pdftex.def Info: 2/Fotos/single_sigmoid_top.pdf  used on input line 525
+Package pdftex.def Info: 2/Fotos/single_sigmoid_top.pdf  used on input line 527
 .
 (pdftex.def)             Requested size: 199.16928pt x 149.37712pt.
-<2/Fotos/combinacion_softmax.pdf, id=430, 421.575pt x 316.18124pt>
+
+LaTeX Warning: Reference `single_sigmoid' on page 11 undefined on input line 53
+2.
+
+
+LaTeX Warning: Reference `combinacion_sigmoid' on page 11 undefined on input li
+ne 532.
+
+<2/Fotos/combinacion_softmax.pdf, id=150, 421.575pt x 316.18124pt>
 File: 2/Fotos/combinacion_softmax.pdf Graphic file (type pdf)
 <use 2/Fotos/combinacion_softmax.pdf>
-Package pdftex.def Info: 2/Fotos/combinacion_softmax.pdf  used on input line 53
-8.
+Package pdftex.def Info: 2/Fotos/combinacion_softmax.pdf  used on input line 54
+0.
 (pdftex.def)             Requested size: 199.16928pt x 149.37712pt.
-<2/Fotos/combinacion_softmax_top.pdf, id=431, 421.575pt x 316.18124pt>
+<2/Fotos/combinacion_softmax_top.pdf, id=151, 421.575pt x 316.18124pt>
 File: 2/Fotos/combinacion_softmax_top.pdf Graphic file (type pdf)
 <use 2/Fotos/combinacion_softmax_top.pdf>
 Package pdftex.def Info: 2/Fotos/combinacion_softmax_top.pdf  used on input lin
-e 542.
+e 544.
 (pdftex.def)             Requested size: 199.16928pt x 149.37712pt.
+[11 <./2/Fotos/activation_functions.png (PNG copy)> <./2/Fotos/single_sigmoid.p
+df> <./2/Fotos/single_sigmoid_top.pdf>]
 
+LaTeX Warning: Reference `clasificacion_activacion' on page 12 undefined on inp
+ut line 549.
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-<2/Fotos/clasificacion_activacion.png, id=433, 743.77875pt x 194.97844pt>
+<2/Fotos/clasificacion_activacion.png, id=173, 743.77875pt x 194.97844pt>
 File: 2/Fotos/clasificacion_activacion.png Graphic file (type png)
 <use 2/Fotos/clasificacion_activacion.png>
 Package pdftex.def Info: 2/Fotos/clasificacion_activacion.png  used on input li
-ne 552.
+ne 554.
 (pdftex.def)             Requested size: 384.1122pt x 100.69615pt.
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+LaTeX Warning: Reference `clasificacion_activacion' on page 12 undefined on inp
+ut line 560.
 
-[11 <./2/Fotos/activation_functions.png (PNG copy)> <./2/Fotos/single_sigmoid.p
-df> <./2/Fotos/single_sigmoid_top.pdf>] [12 <./2/Fotos/combinacion_softmax.pdf>
- <./2/Fotos/combinacion_softmax_top.pdf> <./2/Fotos/clasificacion_activacion.pn
-g>]
+
+LaTeX Warning: Reference `neurona' on page 12 undefined on input line 568.
+
+[12 <./2/Fotos/combinacion_softmax.pdf> <./2/Fotos/combinacion_softmax_top.pdf>
+ <./2/Fotos/clasificacion_activacion.png>]
+
+LaTeX Warning: Reference `fig:prop_error' on page 13 undefined on input line 57
+0.
+
+
+LaTeX Warning: Reference `fig:back_1' on page 13 undefined on input line 630.
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
@@ -1663,7 +1715,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [13] [14] [15
 
 ]
-Overfull \hbox (7.52951pt too wide) in paragraph at lines 830--830
+Overfull \hbox (7.52951pt too wide) in paragraph at lines 832--832
 []\OT1/cmr/bx/n/14.4 IA apli-ca-da a la mo-ni-to-ri-za-cion de es-truc-tu-ras 
 ae-ronauti-
  []
@@ -1672,7 +1724,10 @@ ae-ronauti-
 
 ]) (3/3.tex
 Cap\'{\i }tulo 3.
-<3/Fotos/Milano.png, id=493, 279.225pt x 122.5305pt>
+
+LaTeX Warning: Reference `mialno' on page 17 undefined on input line 18.
+
+<3/Fotos/Milano.png, id=219, 279.225pt x 122.5305pt>
 File: 3/Fotos/Milano.png Graphic file (type png)
 <use 3/Fotos/Milano.png>
 Package pdftex.def Info: 3/Fotos/Milano.png  used on input line 22.
@@ -1682,30 +1737,46 @@ Package pdftex.def Info: 3/Fotos/Milano.png  used on input line 22.
 
 
 ]
-<3/Fotos/estructura_fuselaje.png, id=503, 313.17pt x 219.06844pt>
+
+LaTeX Warning: Reference `estructura_fuselaje' on page 18 undefined on input li
+ne 43.
+
+<3/Fotos/estructura_fuselaje.png, id=230, 313.17pt x 219.06844pt>
 File: 3/Fotos/estructura_fuselaje.png Graphic file (type png)
 <use 3/Fotos/estructura_fuselaje.png>
 Package pdftex.def Info: 3/Fotos/estructura_fuselaje.png  used on input line 47
 .
 (pdftex.def)             Requested size: 369.88582pt x 258.75253pt.
-<3/Fotos/FBG.png, id=506, 950.80219pt x 567.62062pt>
+
+LaTeX Warning: Reference `FBG_sensores' on page 18 undefined on input line 53.
+
+
+LaTeX Warning: Reference `OBR_sensores' on page 18 undefined on input line 53.
+
+<3/Fotos/FBG.png, id=231, 950.80219pt x 567.62062pt>
 File: 3/Fotos/FBG.png Graphic file (type png)
 <use 3/Fotos/FBG.png>
 Package pdftex.def Info: 3/Fotos/FBG.png  used on input line 57.
 (pdftex.def)             Requested size: 355.65944pt x 212.32887pt.
- [18 <./3/Fotos/Milano.png> <./3/Fotos/estructura_fuselaje.png>]
-<3/Fotos/OBR_1.png, id=512, 869.49844pt x 328.97906pt>
+[18 <./3/Fotos/Milano.png> <./3/Fotos/estructura_fuselaje.png>]
+<3/Fotos/OBR_1.png, id=239, 869.49844pt x 328.97906pt>
 File: 3/Fotos/OBR_1.png Graphic file (type png)
 <use 3/Fotos/OBR_1.png>
 Package pdftex.def Info: 3/Fotos/OBR_1.png  used on input line 65.
 (pdftex.def)             Requested size: 369.88582pt x 139.95229pt.
-<3/Fotos/OBR_2.png, id=513, 824.32968pt x 301.125pt>
+<3/Fotos/OBR_2.png, id=240, 824.32968pt x 301.125pt>
 File: 3/Fotos/OBR_2.png Graphic file (type png)
 <use 3/Fotos/OBR_2.png>
 Package pdftex.def Info: 3/Fotos/OBR_2.png  used on input line 66.
 (pdftex.def)             Requested size: 369.88582pt x 135.11902pt.
  [19 <./3/Fotos/FBG.png> <./3/Fotos/OBR_1.png> <./3/Fotos/OBR_2.png>]
-<3/Fotos/dam.png, id=522, 493.845pt x 310.91156pt>
+
+LaTeX Warning: Reference `dam' on page 20 undefined on input line 79.
+
+
+LaTeX Warning: Reference `tdam' on page 20 undefined on input line 79.
+
+<3/Fotos/dam.png, id=250, 493.845pt x 310.91156pt>
 File: 3/Fotos/dam.png Graphic file (type png)
 <use 3/Fotos/dam.png>
 Package pdftex.def Info: 3/Fotos/dam.png  used on input line 83.
@@ -1790,13 +1861,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 106--107
 
  []
 
+
+LaTeX Warning: Reference `remaches' on page 20 undefined on input line 108.
+
 [20 <./3/Fotos/dam.png>]
-<3/Fotos/remaches.png, id=529, 272.51813pt x 398.23781pt>
+<3/Fotos/remaches.png, id=259, 272.51813pt x 398.23781pt>
 File: 3/Fotos/remaches.png Graphic file (type png)
 <use 3/Fotos/remaches.png>
 Package pdftex.def Info: 3/Fotos/remaches.png  used on input line 112.
 (pdftex.def)             Requested size: 156.49014pt x 228.68112pt.
-<3/Fotos/ensayo.png, id=531, 921.4425pt x 588.69937pt>
+
+
+LaTeX Warning: Reference `ensayo' on page 21 undefined on input line 127.
+
+<3/Fotos/ensayo.png, id=260, 921.4425pt x 588.69937pt>
 File: 3/Fotos/ensayo.png Graphic file (type png)
 <use 3/Fotos/ensayo.png>
 Package pdftex.def Info: 3/Fotos/ensayo.png  used on input line 131.
@@ -1806,7 +1884,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 150--151
 
  []
 
-<3/Fotos/femest.png, id=533, 616.55344pt x 339.51843pt>
+
+LaTeX Warning: Reference `femest' on page 21 undefined on input line 152.
+
+<3/Fotos/femest.png, id=261, 616.55344pt x 339.51843pt>
 File: 3/Fotos/femest.png Graphic file (type png)
 <use 3/Fotos/femest.png>
 Package pdftex.def Info: 3/Fotos/femest.png  used on input line 156.
@@ -1816,16 +1897,26 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 [21 <./3/Fotos/remaches.png>] [22 <./3/Fotos/ensayo.png> <./3/Fotos/femest.png>
 ]
+
+LaTeX Warning: Reference `def_t' on page 23 undefined on input line 175.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 175--176
 
  []
 
-<3/Fotos/Sensores_FBG.pdf, id=543, 421.575pt x 316.18124pt>
+<3/Fotos/Sensores_FBG.pdf, id=274, 421.575pt x 316.18124pt>
 File: 3/Fotos/Sensores_FBG.pdf Graphic file (type pdf)
 <use 3/Fotos/Sensores_FBG.pdf>
 Package pdftex.def Info: 3/Fotos/Sensores_FBG.pdf  used on input line 179.
 (pdftex.def)             Requested size: 355.65944pt x 266.7483pt.
-<3/Fotos/Saltos_FBG.pdf, id=546, 421.575pt x 316.18124pt>
+
+LaTeX Warning: Reference `def_s' on page 23 undefined on input line 185.
+
+
+LaTeX Warning: Reference `def_p' on page 23 undefined on input line 185.
+
+<3/Fotos/Saltos_FBG.pdf, id=275, 421.575pt x 316.18124pt>
 File: 3/Fotos/Saltos_FBG.pdf Graphic file (type pdf)
 <use 3/Fotos/Saltos_FBG.pdf>
 Package pdftex.def Info: 3/Fotos/Saltos_FBG.pdf  used on input line 189.
@@ -1833,7 +1924,7 @@ Package pdftex.def Info: 3/Fotos/Saltos_FBG.pdf  used on input line 189.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<3/Fotos/Procesado_FBG.pdf, id=547, 421.575pt x 316.18124pt>
+<3/Fotos/Procesado_FBG.pdf, id=276, 421.575pt x 316.18124pt>
 File: 3/Fotos/Procesado_FBG.pdf Graphic file (type pdf)
 <use 3/Fotos/Procesado_FBG.pdf>
 Package pdftex.def Info: 3/Fotos/Procesado_FBG.pdf  used on input line 197.
@@ -1842,9 +1933,15 @@ Package pdftex.def Info: 3/Fotos/Procesado_FBG.pdf  used on input line 197.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
+LaTeX Warning: Reference `def_s' on page 23 undefined on input line 203.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 203--205
 
  []
+
+
+LaTeX Warning: Reference `def_h' on page 23 undefined on input line 206.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 206--207
@@ -1854,22 +1951,27 @@ Underfull \hbox (badness 10000) in paragraph at lines 206--207
 [23
 
  <./3/Fotos/Sensores_FBG.pdf>]
-<3/Fotos/Histograma_FBG.pdf, id=557, 421.575pt x 316.18124pt>
+<3/Fotos/Histograma_FBG.pdf, id=286, 421.575pt x 316.18124pt>
 File: 3/Fotos/Histograma_FBG.pdf Graphic file (type pdf)
 <use 3/Fotos/Histograma_FBG.pdf>
 Package pdftex.def Info: 3/Fotos/Histograma_FBG.pdf  used on input line 210.
 (pdftex.def)             Requested size: 355.65944pt x 266.7483pt.
  [24 <./3/Fotos/Saltos_FBG.pdf> <./3/Fotos/Procesado_FBG.pdf>]
-<3/Fotos/FBG_damages.pdf, id=568, 421.575pt x 316.18124pt>
+
+LaTeX Warning: Reference `FBGR_dam' on page 25 undefined on input line 216.
+
+
+LaTeX Warning: Reference `FBGR_dif' on page 25 undefined on input line 216.
+
+<3/Fotos/FBG_damages.pdf, id=297, 421.575pt x 316.18124pt>
 File: 3/Fotos/FBG_damages.pdf Graphic file (type pdf)
 <use 3/Fotos/FBG_damages.pdf>
 Package pdftex.def Info: 3/Fotos/FBG_damages.pdf  used on input line 220.
 (pdftex.def)             Requested size: 355.65944pt x 266.7483pt.
 
-
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<3/Fotos/FBG_dif.pdf, id=569, 421.575pt x 316.18124pt>
+<3/Fotos/FBG_dif.pdf, id=298, 421.575pt x 316.18124pt>
 File: 3/Fotos/FBG_dif.pdf Graphic file (type pdf)
 <use 3/Fotos/FBG_dif.pdf>
 Package pdftex.def Info: 3/Fotos/FBG_dif.pdf  used on input line 228.
@@ -1878,11 +1980,14 @@ Package pdftex.def Info: 3/Fotos/FBG_dif.pdf  used on input line 228.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
+LaTeX Warning: Reference `fig:D01-R3' on page 25 undefined on input line 241.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 241--242
 
  []
 
-<3/Fotos/D01-R3.pdf, id=571, 421.575pt x 316.18124pt>
+<3/Fotos/D01-R3.pdf, id=299, 421.575pt x 316.18124pt>
 File: 3/Fotos/D01-R3.pdf Graphic file (type pdf)
 <use 3/Fotos/D01-R3.pdf>
 Package pdftex.def Info: 3/Fotos/D01-R3.pdf  used on input line 245.
@@ -1891,10 +1996,13 @@ Package pdftex.def Info: 3/Fotos/D01-R3.pdf  used on input line 245.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
+LaTeX Warning: Reference `fig:D01-R3' on page 25 undefined on input line 251.
+
+
 LaTeX Warning: Citation 'Savitzky-Golay' on page 25 undefined on input line 253
 .
 
-<3/Fotos/filtro.pdf, id=573, 421.575pt x 316.18124pt>
+<3/Fotos/filtro.pdf, id=300, 421.575pt x 316.18124pt>
 File: 3/Fotos/filtro.pdf Graphic file (type pdf)
 <use 3/Fotos/filtro.pdf>
 Package pdftex.def Info: 3/Fotos/filtro.pdf  used on input line 257.
@@ -1903,11 +2011,17 @@ Package pdftex.def Info: 3/Fotos/filtro.pdf  used on input line 257.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
+LaTeX Warning: Reference `fig:filtro' on page 25 undefined on input line 263.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 263--264
 
  []
 
-<3/Fotos/histo_ruido_OBR.pdf, id=576, 421.575pt x 316.18124pt>
+
+LaTeX Warning: Reference `OBRR_ruido' on page 25 undefined on input line 265.
+
+<3/Fotos/histo_ruido_OBR.pdf, id=301, 421.575pt x 316.18124pt>
 File: 3/Fotos/histo_ruido_OBR.pdf Graphic file (type pdf)
 <use 3/Fotos/histo_ruido_OBR.pdf>
 Package pdftex.def Info: 3/Fotos/histo_ruido_OBR.pdf  used on input line 269.
@@ -1915,27 +2029,36 @@ Package pdftex.def Info: 3/Fotos/histo_ruido_OBR.pdf  used on input line 269.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<3/Fotos/detalle_OBR_ruido.pdf, id=578, 421.575pt x 316.18124pt>
+
+LaTeX Warning: Reference `fig:OBRR_det' on page 25 undefined on input line 275.
+
+
+<3/Fotos/detalle_OBR_ruido.pdf, id=302, 421.575pt x 316.18124pt>
 File: 3/Fotos/detalle_OBR_ruido.pdf Graphic file (type pdf)
 <use 3/Fotos/detalle_OBR_ruido.pdf>
 Package pdftex.def Info: 3/Fotos/detalle_OBR_ruido.pdf  used on input line 279.
 
 (pdftex.def)             Requested size: 355.65944pt x 266.7483pt.
-[25 <./3/Fotos/Histograma_FBG.pdf>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[26 <./3/Fotos/FBG_damages.pdf> <./3/Fotos/FBG_dif.pdf>]
-<3/Fotos/OBR_damages.pdf, id=596, 421.575pt x 316.18124pt>
+
+LaTeX Warning: Reference `OBRR_dam' on page 25 undefined on input line 285.
+
+
+LaTeX Warning: Reference `OBRR_dif' on page 25 undefined on input line 285.
+
+[25 <./3/Fotos/Histograma_FBG.pdf>]
+<3/Fotos/OBR_damages.pdf, id=312, 421.575pt x 316.18124pt>
 File: 3/Fotos/OBR_damages.pdf Graphic file (type pdf)
 <use 3/Fotos/OBR_damages.pdf>
 Package pdftex.def Info: 3/Fotos/OBR_damages.pdf  used on input line 289.
 (pdftex.def)             Requested size: 355.65944pt x 266.7483pt.
-
+ [26 <./3/Fotos/FBG_damages.pdf> <./3/Fotos/FBG_dif.pdf>]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<3/Fotos/OBR_dif.pdf, id=597, 421.575pt x 316.18124pt>
+<3/Fotos/OBR_dif.pdf, id=323, 421.575pt x 316.18124pt>
 File: 3/Fotos/OBR_dif.pdf Graphic file (type pdf)
 <use 3/Fotos/OBR_dif.pdf>
 Package pdftex.def Info: 3/Fotos/OBR_dif.pdf  used on input line 297.
@@ -1944,7 +2067,7 @@ Package pdftex.def Info: 3/Fotos/OBR_dif.pdf  used on input line 297.
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Overfull \hbox (197.68068pt too wide) in paragraph at lines 313--314
+Overfull \hbox (197.68068pt too wide) in paragraph at lines 304--305
 [][]$\OT1/cmtt/m/n/10.95 https : / / towardsdatascience . com / hands-[]on-[]gr
 aph-[]neural-[]networks-[]with-[]pytorch-[]pytorch-[]geometric-[]359487e221a8$[
 ] 
@@ -1953,128 +2076,752 @@ aph-[]neural-[]networks-[]with-[]pytorch-[]pytorch-[]geometric-[]359487e221a8$[
 [27 <./3/Fotos/D01-R3.pdf> <./3/Fotos/filtro.pdf>] [28 <./3/Fotos/histo_ruido_O
 BR.pdf> <./3/Fotos/detalle_OBR_ruido.pdf>] [29 <./3/Fotos/OBR_damages.pdf> <./3
 /Fotos/OBR_dif.pdf>]
-Underfull \hbox (badness 10000) in paragraph at lines 326--327
+
+LaTeX Warning: Hyper reference `sec:funcionamiento_DL' on page 30 undefined on 
+input line 318.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 318--319
 
  []
 
 
-LaTeX Warning: Citation 't_sne' on page 30 undefined on input line 328.
+LaTeX Warning: Citation 't_sne' on page 30 undefined on input line 320.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 328--329
+Underfull \hbox (badness 10000) in paragraph at lines 320--321
+
+ []
+
+
+LaTeX Warning: Reference `eq:prob_alta' on page 30 undefined on input line 322.
+
+
+
+LaTeX Warning: Reference `eq:prob_baja' on page 30 undefined on input line 330.
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 338--339
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 346--347
-
- []
+LaTeX Warning: Reference `eq:costes' on page 30 undefined on input line 340.
 
 [30
 
 ]
-<3/Fotos/Ty_Si_INESASSE_t-sne.png, id=638, 1282.7925pt x 1220.56pt>
+<3/Fotos/Ty_Si_INESASSE_t-sne.png, id=366, 1282.7925pt x 1220.56pt>
 File: 3/Fotos/Ty_Si_INESASSE_t-sne.png Graphic file (type png)
 <use 3/Fotos/Ty_Si_INESASSE_t-sne.png>
 Package pdftex.def Info: 3/Fotos/Ty_Si_INESASSE_t-sne.png  used on input line 3
-63.
-(pdftex.def)             Requested size: 426.79134pt x 406.08253pt.
-<3/Fotos/Load_INESASSE_t-sne.png, id=639, 986.68625pt x 931.48pt>
-File: 3/Fotos/Load_INESASSE_t-sne.png Graphic file (type png)
-<use 3/Fotos/Load_INESASSE_t-sne.png>
-Package pdftex.def Info: 3/Fotos/Load_INESASSE_t-sne.png  used on input line 37
-1.
-(pdftex.def)             Requested size: 426.79134pt x 402.91641pt.
+55.
+(pdftex.def)             Requested size: 355.65944pt x 338.40211pt.
+<3/Fotos/tsne_Load_INESASSE.pdf, id=367, 991.57953pt x 939.51pt>
+File: 3/Fotos/tsne_Load_INESASSE.pdf Graphic file (type pdf)
+<use 3/Fotos/tsne_Load_INESASSE.pdf>
+Package pdftex.def Info: 3/Fotos/tsne_Load_INESASSE.pdf  used on input line 363
+.
+(pdftex.def)             Requested size: 355.65944pt x 336.97614pt.
  [31 <./3/Fotos/Ty_Si_INESASSE_t-sne.png>]
-<3/Fotos/tsne_Ty_Si_OBR_INESASSE.png, id=645, 774.895pt x 714.67pt>
+<3/Fotos/tsne_Ty_Si_OBR_INESASSE.png, id=376, 774.895pt x 714.67pt>
 File: 3/Fotos/tsne_Ty_Si_OBR_INESASSE.png Graphic file (type png)
 <use 3/Fotos/tsne_Ty_Si_OBR_INESASSE.png>
 Package pdftex.def Info: 3/Fotos/tsne_Ty_Si_OBR_INESASSE.png  used on input lin
-e 381.
-(pdftex.def)             Requested size: 426.79134pt x 393.62585pt.
- [32 <./3/Fotos/Load_INESASSE_t-sne.png>]
-<3/Fotos/tsne_Load_OBR_INESASSE.png, id=651, 768.8725pt x 714.67pt>
+e 373.
+(pdftex.def)             Requested size: 355.65944pt x 328.02155pt.
+ [32 <./3/Fotos/tsne_Load_INESASSE.pdf>]
+<3/Fotos/tsne_Load_OBR_INESASSE.png, id=430, 768.8725pt x 714.67pt>
 File: 3/Fotos/tsne_Load_OBR_INESASSE.png Graphic file (type png)
 <use 3/Fotos/tsne_Load_OBR_INESASSE.png>
 Package pdftex.def Info: 3/Fotos/tsne_Load_OBR_INESASSE.png  used on input line
- 389.
-(pdftex.def)             Requested size: 426.79134pt x 396.71198pt.
- [33 <./3/Fotos/tsne_Ty_Si_OBR_INESASSE.png>] [34 <./3/Fotos/tsne_Load_OBR_INES
-ASSE.png>]
-<3/Fotos/Ty_Si_INESASSE_confusion.png, id=666, 1509.64pt x 1509.64pt>
+ 381.
+(pdftex.def)             Requested size: 355.65944pt x 330.59512pt.
+ [33 <./3/Fotos/tsne_Ty_Si_OBR_INESASSE.png>]
+
+LaTeX Warning: Reference `fig:tsne_FBG_Load' on page 34 undefined on input line
+ 390.
+
+
+LaTeX Warning: Reference `fig:tsne_FBG_Load' on page 34 undefined on input line
+ 390.
+
+
+LaTeX Warning: Reference `fig:tsne_FBG_Ty_Si' on page 34 undefined on input lin
+e 390.
+
+
+LaTeX Warning: Reference `fig:tsne_FBG_Ty_Si' on page 34 undefined on input lin
+e 390.
+
+[34 <./3/Fotos/tsne_Load_OBR_INESASSE.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 409--410
+
+ []
+
+<3/Fotos/Ty_Si_INESASSE_confusion.png, id=443, 1509.64pt x 1509.64pt>
 File: 3/Fotos/Ty_Si_INESASSE_confusion.png Graphic file (type png)
 <use 3/Fotos/Ty_Si_INESASSE_confusion.png>
 Package pdftex.def Info: 3/Fotos/Ty_Si_INESASSE_confusion.png  used on input li
-ne 421.
-(pdftex.def)             Requested size: 426.79134pt x 426.77356pt.
- [35
-
-]
-<3/Fotos/Load_INESASSE_confusion.png, id=672, 786.94pt x 786.94pt>
+ne 420.
+(pdftex.def)             Requested size: 355.65944pt x 355.6408pt.
+<3/Fotos/Load_INESASSE_confusion.png, id=444, 786.94pt x 786.94pt>
 File: 3/Fotos/Load_INESASSE_confusion.png Graphic file (type png)
 <use 3/Fotos/Load_INESASSE_confusion.png>
 Package pdftex.def Info: 3/Fotos/Load_INESASSE_confusion.png  used on input lin
-e 429.
-(pdftex.def)             Requested size: 426.79134pt x 426.79047pt.
- [36 <./3/Fotos/Ty_Si_INESASSE_confusion.png>]
-<3/Fotos/CM_Ty_Si_OBR.png, id=678, 1075.01625pt x 1076.02pt>
+e 428.
+(pdftex.def)             Requested size: 355.65944pt x 355.65671pt.
+[35
+
+ <./3/Fotos/Ty_Si_INESASSE_confusion.png>]
+<3/Fotos/CM_Ty_Si_OBR.png, id=453, 1075.01625pt x 1076.02pt>
 File: 3/Fotos/CM_Ty_Si_OBR.png Graphic file (type png)
 <use 3/Fotos/CM_Ty_Si_OBR.png>
-Package pdftex.def Info: 3/Fotos/CM_Ty_Si_OBR.png  used on input line 440.
-(pdftex.def)             Requested size: 426.79134pt x 427.18231pt.
- [37 <./3/Fotos/Load_INESASSE_confusion.png>]
-<3/Fotos/CM_Load_OBR.png, id=684, 1076.02pt x 1076.02pt>
+Package pdftex.def Info: 3/Fotos/CM_Ty_Si_OBR.png  used on input line 439.
+(pdftex.def)             Requested size: 355.65944pt x 355.99074pt.
+ [36 <./3/Fotos/Load_INESASSE_confusion.png>]
+<3/Fotos/CM_Load_OBR.png, id=460, 1076.02pt x 1076.02pt>
 File: 3/Fotos/CM_Load_OBR.png Graphic file (type png)
 <use 3/Fotos/CM_Load_OBR.png>
-Package pdftex.def Info: 3/Fotos/CM_Load_OBR.png  used on input line 448.
-(pdftex.def)             Requested size: 426.79134pt x 426.78827pt.
- [38 <./3/Fotos/CM_Ty_Si_OBR.png>]) [39 <./3/Fotos/CM_Load_OBR.png>] (4/4.tex
+Package pdftex.def Info: 3/Fotos/CM_Load_OBR.png  used on input line 447.
+(pdftex.def)             Requested size: 355.65944pt x 355.66235pt.
+ [37 <./3/Fotos/CM_Ty_Si_OBR.png>] [38 <./3/Fotos/CM_Load_OBR.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 466--467
+
+ []
+
+<3/Fotos/semiala_diagama.jpg, id=474, 423.83344pt x 217.5628pt>
+File: 3/Fotos/semiala_diagama.jpg Graphic file (type jpg)
+<use 3/Fotos/semiala_diagama.jpg>
+Package pdftex.def Info: 3/Fotos/semiala_diagama.jpg  used on input line 482.
+(pdftex.def)             Requested size: 213.39566pt x 109.54135pt.
+<3/Fotos/fuselage_diagam.png, id=475, 448.67625pt x 383.18156pt>
+File: 3/Fotos/fuselage_diagam.png Graphic file (type png)
+<use 3/Fotos/fuselage_diagam.png>
+Package pdftex.def Info: 3/Fotos/fuselage_diagam.png  used on input line 485.
+(pdftex.def)             Requested size: 184.9429pt x 157.94156pt.
+
+LaTeX Warning: Reference `fig:estructuras' on page 39 undefined on input line 4
+90.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 490--491
+
+ []
+
+
+LaTeX Warning: Reference `fig:viga_real' on page 39 undefined on input line 492
+.
+
+<3/Fotos/Viga_Real.jpg, id=476, 256.96pt x 192.72pt>
+File: 3/Fotos/Viga_Real.jpg Graphic file (type jpg)
+<use 3/Fotos/Viga_Real.jpg>
+Package pdftex.def Info: 3/Fotos/Viga_Real.jpg  used on input line 496.
+(pdftex.def)             Requested size: 284.52756pt x 213.41298pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `tab:laminados' on page 39 undefined on input line 509
+.
+
+[39
+
+ <./3/Fotos/semiala_diagama.jpg> <./3/Fotos/fuselage_diagam.png>]
+<3/Fotos/L_BC.PNG, id=488, 1288.815pt x 493.0922pt>
+File: 3/Fotos/L_BC.PNG Graphic file (type png)
+<use 3/Fotos/L_BC.PNG>
+Package pdftex.def Info: 3/Fotos/L_BC.PNG  used on input line 526.
+(pdftex.def)             Requested size: 426.79134pt x 163.28522pt.
+
+
+LaTeX Warning: Reference `fig:viga_bc' on page 40 undefined on input line 532.
+
+[40 <./3/Fotos/Viga_Real.jpg> <./3/Fotos/L_BC.PNG>]
+
+LaTeX Warning: Reference `fig:sensors' on page 41 undefined on input line 556.
+
+<3/Fotos/Sensors.png, id=497, 962.09438pt x 386.19281pt>
+File: 3/Fotos/Sensors.png Graphic file (type png)
+<use 3/Fotos/Sensors.png>
+Package pdftex.def Info: 3/Fotos/Sensors.png  used on input line 560.
+(pdftex.def)             Requested size: 426.79134pt x 171.32195pt.
+) [41 <./3/Fotos/Sensors.png>] (4/4.tex
 Cap\'{\i }tulo 4.
-[40
+
+Underfull \hbox (badness 10000) in paragraph at lines 3--4
+
+ []
 
 
-] [41
+LaTeX Warning: Citation 'Christian_TFM' on page 42 undefined on input line 5.
 
-] [42
 
-] [43
+LaTeX Warning: Citation 'Christian_TFM' on page 42 undefined on input line 7.
 
-] [44
+
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
+
+ []
+
+
+LaTeX Warning: Reference `fig:costilla_ala' on page 42 undefined on input line 
+9.
+
+<4/Fotos/costilla_ala.png, id=504, 800.23969pt x 223.58531pt>
+File: 4/Fotos/costilla_ala.png Graphic file (type png)
+<use 4/Fotos/costilla_ala.png>
+Package pdftex.def Info: 4/Fotos/costilla_ala.png  used on input line 13.
+(pdftex.def)             Requested size: 384.1122pt x 107.31972pt.
+
+LaTeX Warning: Reference `fig:costilla_piezos' on page 42 undefined on input li
+ne 19.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 19--20
+
+ []
+
+<4/Fotos/costilla_piezos.png, id=505, 584.93532pt x 345.54094pt>
+File: 4/Fotos/costilla_piezos.png Graphic file (type png)
+<use 4/Fotos/costilla_piezos.png>
+Package pdftex.def Info: 4/Fotos/costilla_piezos.png  used on input line 23.
+(pdftex.def)             Requested size: 355.65944pt x 210.10477pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `fig:costilla_celdas' on page 42 undefined on input li
+ne 29.
+
+[42
+
+
+ <./4/Fotos/costilla_ala.png>]
+<4/Fotos/costilla_celdas.png, id=513, 651.93562pt x 479.54156pt>
+File: 4/Fotos/costilla_celdas.png Graphic file (type png)
+<use 4/Fotos/costilla_celdas.png>
+Package pdftex.def Info: 4/Fotos/costilla_celdas.png  used on input line 33.
+(pdftex.def)             Requested size: 355.65944pt x 261.61937pt.
+ [43 <./4/Fotos/costilla_piezos.png> <./4/Fotos/costilla_celdas.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 52--53
+
+ []
+
+[44]
+
+LaTeX Warning: Citation 'GANs' on page 45 undefined on input line 76.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 76--77
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
+
+ []
+
+
+LaTeX Warning: Reference `fig:gan_arquitectura' on page 45 undefined on input l
+ine 86.
+
+<4/Fotos/gan_representacion.png, id=529, 1047.16219pt x 435.87843pt>
+File: 4/Fotos/gan_representacion.png Graphic file (type png)
+<use 4/Fotos/gan_representacion.png>
+Package pdftex.def Info: 4/Fotos/gan_representacion.png  used on input line 90.
+
+(pdftex.def)             Requested size: 355.65944pt x 148.03708pt.
+
+LaTeX Warning: Citation 'GAN_lab' on page 45 undefined on input line 96.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 96--97
+
+ []
+
+[45
+
+ <./4/Fotos/gan_representacion.png>]
+
+LaTeX Warning: Citation 'Christian_TFM' on page 46 undefined on input line 98.
+
+
+LaTeX Warning: Reference `fig:multiple_impactos' on page 46 undefined on input 
+line 98.
+
+
+LaTeX Warning: Reference `fig:celda_11_1' on page 46 undefined on input line 10
+0.
+
+
+LaTeX Warning: Reference `fig:celda_11_2' on page 46 undefined on input line 10
+0.
+
+<4/Fotos/Impacto_11_1.pdf, id=537, 421.575pt x 316.18124pt>
+File: 4/Fotos/Impacto_11_1.pdf Graphic file (type pdf)
+<use 4/Fotos/Impacto_11_1.pdf>
+Package pdftex.def Info: 4/Fotos/Impacto_11_1.pdf  used on input line 106.
+(pdftex.def)             Requested size: 213.39566pt x 160.04898pt.
+<4/Fotos/Impacto_11_2.pdf, id=538, 421.575pt x 316.18124pt>
+File: 4/Fotos/Impacto_11_2.pdf Graphic file (type pdf)
+<use 4/Fotos/Impacto_11_2.pdf>
+Package pdftex.def Info: 4/Fotos/Impacto_11_2.pdf  used on input line 109.
+(pdftex.def)             Requested size: 213.39566pt x 160.04898pt.
+<4/Fotos/Impacto_72_1.pdf, id=539, 421.575pt x 316.18124pt>
+File: 4/Fotos/Impacto_72_1.pdf Graphic file (type pdf)
+<use 4/Fotos/Impacto_72_1.pdf>
+Package pdftex.def Info: 4/Fotos/Impacto_72_1.pdf  used on input line 113.
+(pdftex.def)             Requested size: 213.39566pt x 160.04898pt.
+<4/Fotos/Impacto_72_2.pdf, id=540, 421.575pt x 316.18124pt>
+File: 4/Fotos/Impacto_72_2.pdf Graphic file (type pdf)
+<use 4/Fotos/Impacto_72_2.pdf>
+Package pdftex.def Info: 4/Fotos/Impacto_72_2.pdf  used on input line 116.
+(pdftex.def)             Requested size: 213.39566pt x 160.04898pt.
+
+Overfull \hbox (13.95976pt too wide) in paragraph at lines 106--117
+ [][][][][] 
+ []
+
+
+Overfull \hbox (13.95976pt too wide) in paragraph at lines 106--117
+ [][][][] 
+ []
+
+[46 <./4/Fotos/Impacto_11_1.pdf> <./4/Fotos/Impacto_11_2.pdf> <./4/Fotos/Impact
+o_72_1.pdf> <./4/Fotos/Impacto_72_2.pdf>]
+Underfull \hbox (badness 10000) in paragraph at lines 129--130
+
+ []
+
+[47]
+
+LaTeX Warning: Command \~ invalid in math mode on input line 152.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.152 ...uelve al espacio de características $\~s
+                                                  , \~x_{1:T} = r(\textbf{h}...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+! You can't use `\spacefactor' in math mode.
+\add@accent ... \accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.152 ...uelve al espacio de características $\~s
+                                                  , \~x_{1:T} = r(\textbf{h}...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 152.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.152 ... al espacio de características $\~s, \~x
+                                                  _{1:T} = r(\textbf{h}_S, \...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+! You can't use `\spacefactor' in math mode.
+\add@accent ... \accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.152 ... al espacio de características $\~s, \~x
+                                                  _{1:T} = r(\textbf{h}_S, \...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no � in font cmex10!
+Missing character: There is no � in font cmex10!
+
+LaTeX Warning: Command \~ invalid in math mode on input line 155.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.155         \~s
+                  = r_{S}(\textbf{h}_s), \qquad  \~x_t = r_{X}(\textbf{h}_t)
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+! You can't use `\spacefactor' in display math mode.
+\add@accent ... \accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.155         \~s
+                  = r_{S}(\textbf{h}_s), \qquad  \~x_t = r_{X}(\textbf{h}_t)
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 155.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.155 ...   \~s = r_{S}(\textbf{h}_s), \qquad  \~x
+                                                  _t = r_{X}(\textbf{h}_t)
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+! You can't use `\spacefactor' in display math mode.
+\add@accent ... \accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.155 ...   \~s = r_{S}(\textbf{h}_s), \qquad  \~x
+                                                  _t = r_{X}(\textbf{h}_t)
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no � in font cmex10!
+Missing character: There is no � in font cmex10!
+
+LaTeX Warning: Command \^ invalid in math mode on input line 162.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.162 ...poraes al espacio latente sintético $\^h
+                                                  _S, \^h_{1:T} = g(\textbf{...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+! You can't use `\spacefactor' in math mode.
+\add@accent ... \accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.162 ...poraes al espacio latente sintético $\^h
+                                                  _S, \^h_{1:T} = g(\textbf{...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+LaTeX Warning: Command \^ invalid in math mode on input line 162.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.162 ...al espacio latente sintético $\^h_S, \^h
+                                                  _{1:T} = g(\textbf{z}_S, \...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+! You can't use `\spacefactor' in math mode.
+\add@accent ... \accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.162 ...al espacio latente sintético $\^h_S, \^h
+                                                  _{1:T} = g(\textbf{z}_S, \...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no � in font cmex10!
+Missing character: There is no � in font cmex10!
+
+LaTeX Warning: Command \~ invalid in math mode on input line 168.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.168 ...ticas, devolviendo la clasificación $\~y
+                                                  _S, \~y_{1:T} = d(\textbf{...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+! You can't use `\spacefactor' in math mode.
+\add@accent ... \accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.168 ...ticas, devolviendo la clasificación $\~y
+                                                  _S, \~y_{1:T} = d(\textbf{...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+LaTeX Warning: Command \~ invalid in math mode on input line 168.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.168 ...devolviendo la clasificación $\~y_S, \~y
+                                                  _{1:T} = d(\textbf{\~h}_S)...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+! You can't use `\spacefactor' in math mode.
+\add@accent ... \accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.168 ...devolviendo la clasificación $\~y_S, \~y
+                                                  _{1:T} = d(\textbf{\~h}_S)...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no � in font cmex10!
+Missing character: There is no � in font cmex10!
+
+LaTeX Warning: Command \^ invalid in math mode on input line 168.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.168 ...datos reales ($h$) como sintéticos ($\^h
+                                                  $) en el espacio vectorial...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+! You can't use `\spacefactor' in math mode.
+\add@accent ... \accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.168 ...datos reales ($h$) como sintéticos ($\^h
+                                                  $) en el espacio vectorial...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no � in font cmex10!
+
+LaTeX Warning: Command \^ invalid in math mode on input line 168.
+
+! Please use \mathaccent for accents in math mode.
+\add@accent ... \let \ignorespaces \relax \accent 
+                                                  #1 #2\egroup \spacefactor ...
+l.168 ...icación real ($y$) como sintética ($\^y
+                                                  $). Aquí se implementa d ...
+I'm changing \accent to \mathaccent here; wish me luck.
+(Accents are not the same in formulas as they are in text.)
+
+! You can't use `\spacefactor' in math mode.
+\add@accent ... \accent #1 #2\egroup \spacefactor 
+                                                  \accent@spacefactor 
+l.168 ...icación real ($y$) como sintética ($\^y
+                                                  $). Aquí se implementa d ...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+Missing character: There is no � in font cmex10!
+
+LaTeX Warning: Reference `fig:TimeGAN' on page 48 undefined on input line 177.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 177--178
+
+ []
+
+<4/Fotos/TimeGAN.png, id=564, 526.21594pt x 545.78906pt>
+File: 4/Fotos/TimeGAN.png Graphic file (type png)
+<use 4/Fotos/TimeGAN.png>
+Package pdftex.def Info: 4/Fotos/TimeGAN.png  used on input line 181.
+(pdftex.def)             Requested size: 355.65944pt x 368.89972pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Citation 'TimeGAN' on page 48 undefined on input line 187.
+
+[48]
+Underfull \hbox (badness 10000) in paragraph at lines 203--204
+
+ []
+
+
+LaTeX Warning: Reference `fig:multiple_impactos_S' on page 49 undefined on inpu
+t line 205.
+
+
+LaTeX Warning: Reference `fig:multiple_impactos' on page 49 undefined on input 
+line 205.
+
+<4/Fotos/Impacto_11_1_S.pdf, id=573, 421.575pt x 316.18124pt>
+File: 4/Fotos/Impacto_11_1_S.pdf Graphic file (type pdf)
+<use 4/Fotos/Impacto_11_1_S.pdf>
+Package pdftex.def Info: 4/Fotos/Impacto_11_1_S.pdf  used on input line 211.
+(pdftex.def)             Requested size: 213.39566pt x 160.04898pt.
+<4/Fotos/Impacto_11_2_S.pdf, id=574, 421.575pt x 316.18124pt>
+File: 4/Fotos/Impacto_11_2_S.pdf Graphic file (type pdf)
+<use 4/Fotos/Impacto_11_2_S.pdf>
+Package pdftex.def Info: 4/Fotos/Impacto_11_2_S.pdf  used on input line 214.
+(pdftex.def)             Requested size: 213.39566pt x 160.04898pt.
+<4/Fotos/Impacto_72_1_S.pdf, id=575, 421.575pt x 316.18124pt>
+File: 4/Fotos/Impacto_72_1_S.pdf Graphic file (type pdf)
+<use 4/Fotos/Impacto_72_1_S.pdf>
+Package pdftex.def Info: 4/Fotos/Impacto_72_1_S.pdf  used on input line 218.
+(pdftex.def)             Requested size: 213.39566pt x 160.04898pt.
+<4/Fotos/Impacto_72_2_S.pdf, id=576, 421.575pt x 316.18124pt>
+File: 4/Fotos/Impacto_72_2_S.pdf Graphic file (type pdf)
+<use 4/Fotos/Impacto_72_2_S.pdf>
+Package pdftex.def Info: 4/Fotos/Impacto_72_2_S.pdf  used on input line 221.
+(pdftex.def)             Requested size: 213.39566pt x 160.04898pt.
+
+Overfull \hbox (13.95976pt too wide) in paragraph at lines 211--222
+ [][][][][] 
+ []
+
+
+Overfull \hbox (13.95976pt too wide) in paragraph at lines 211--222
+ [][][][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[49 <./4/Fotos/TimeGAN.png>]
+<4/Fotos/tsne_TimeGAN_13-14.pdf, id=585, 990.70125pt x 943.525pt>
+File: 4/Fotos/tsne_TimeGAN_13-14.pdf Graphic file (type pdf)
+<use 4/Fotos/tsne_TimeGAN_13-14.pdf>
+Package pdftex.def Info: 4/Fotos/tsne_TimeGAN_13-14.pdf  used on input line 237
+.
+(pdftex.def)             Requested size: 312.9803pt x 298.07576pt.
+ [50 <./4/Fotos/Impacto_11_1_S.pdf> <./4/Fotos/Impacto_11_2_S.pdf> <./4/Fotos/I
+mpacto_72_1_S.pdf> <./4/Fotos/Impacto_72_2_S.pdf>]
+<4/Fotos/tsne_TimeGAN_46-14.pdf, id=603, 1002.74625pt x 951.555pt>
+File: 4/Fotos/tsne_TimeGAN_46-14.pdf Graphic file (type pdf)
+<use 4/Fotos/tsne_TimeGAN_46-14.pdf>
+Package pdftex.def Info: 4/Fotos/tsne_TimeGAN_46-14.pdf  used on input line 245
+.
+(pdftex.def)             Requested size: 312.9803pt x 296.99721pt.
+<4/Fotos/tsne_TimeGAN_79-14.pdf, id=604, 971.63pt x 956.57375pt>
+File: 4/Fotos/tsne_TimeGAN_79-14.pdf Graphic file (type pdf)
+<use 4/Fotos/tsne_TimeGAN_79-14.pdf>
+Package pdftex.def Info: 4/Fotos/tsne_TimeGAN_79-14.pdf  used on input line 253
+.
+(pdftex.def)             Requested size: 312.9803pt x 308.12411pt.
+
+[51 <./4/Fotos/tsne_TimeGAN_13-14.pdf> <./4/Fotos/tsne_TimeGAN_46-14.pdf
+
+pdfTeX warning: pdflatex (file ./4/Fotos/tsne_TimeGAN_46-14.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
+>]
+<4/Fotos/tsne_TimeGAN_13-58.pdf, id=670, 993.7125pt x 936.49875pt>
+File: 4/Fotos/tsne_TimeGAN_13-58.pdf Graphic file (type pdf)
+<use 4/Fotos/tsne_TimeGAN_13-58.pdf>
+Package pdftex.def Info: 4/Fotos/tsne_TimeGAN_13-58.pdf  used on input line 261
+.
+(pdftex.def)             Requested size: 312.9803pt x 294.9558pt.
+<4/Fotos/tsne_TimeGAN_46-58.pdf, id=671, 986.68625pt x 944.52875pt>
+File: 4/Fotos/tsne_TimeGAN_46-58.pdf Graphic file (type pdf)
+<use 4/Fotos/tsne_TimeGAN_46-58.pdf>
+Package pdftex.def Info: 4/Fotos/tsne_TimeGAN_46-58.pdf  used on input line 269
+.
+(pdftex.def)             Requested size: 312.9803pt x 299.6035pt.
+ [52 <./4/Fotos/tsne_TimeGAN_79-14.pdf> <./4/Fotos/tsne_TimeGAN_13-58.pdf
+
+pdfTeX warning: pdflatex (file ./4/Fotos/tsne_TimeGAN_13-58.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
+>]
+<4/Fotos/tsne_TimeGAN_79-58.pdf, id=744, 990.70125pt x 944.52875pt>
+File: 4/Fotos/tsne_TimeGAN_79-58.pdf Graphic file (type pdf)
+<use 4/Fotos/tsne_TimeGAN_79-58.pdf>
+Package pdftex.def Info: 4/Fotos/tsne_TimeGAN_79-58.pdf  used on input line 277
+.
+(pdftex.def)             Requested size: 312.9803pt x 298.39287pt.
+
+
+LaTeX Warning: Reference `fig:13-14' on page 53 undefined on input line 283.
+
+
+LaTeX Warning: Reference `fig:79-58' on page 53 undefined on input line 283.
+
+[53 <./4/Fotos/tsne_TimeGAN_46-58.pdf> <./4/Fotos/tsne_TimeGAN_79-58.pdf
+
+pdfTeX warning: pdflatex (file ./4/Fotos/tsne_TimeGAN_79-58.pdf): PDF inclusion
+: multiple pdfs with page group included in a single page
+>]
+Underfull \hbox (badness 10000) in paragraph at lines 285--286
+
+ []
+
+
+LaTeX Warning: Reference `fig:13-14' on page 54 undefined on input line 287.
+
+[54]
+Underfull \hbox (badness 10000) in paragraph at lines 309--310
+
+ []
+
+<4/Fotos/CM_A380_Sintetico.png, id=821, 4326.1625pt x 4328.17pt>
+File: 4/Fotos/CM_A380_Sintetico.png Graphic file (type png)
+<use 4/Fotos/CM_A380_Sintetico.png>
+Package pdftex.def Info: 4/Fotos/CM_A380_Sintetico.png  used on input line 313.
+
+(pdftex.def)             Requested size: 426.79134pt x 426.96458pt.
+File: 4/Fotos/CM_A380_Sintetico.png Graphic file (type png)
+<use 4/Fotos/CM_A380_Sintetico.png>
+Package pdftex.def Info: 4/Fotos/CM_A380_Sintetico.png  used on input line 321.
+
+(pdftex.def)             Requested size: 426.79134pt x 426.96458pt.
+[55
+
+ <./4/Fotos/CM_A380_Sintetico.png>]
+
+LaTeX Warning: Reference `fig:CM_Real' on page 56 undefined on input line 327.
+
+
+LaTeX Warning: Reference `fig:CM_Sintetico' on page 56 undefined on input line 
+329.
+
+[56] [57
+
+] [58
+
+] [59
 
 ]) (5/5.tex
 Cap\'{\i }tulo 5.
-[45
+[60
 
 
 
 ])
 
-LaTeX Warning: Citation 'einstein' on page 46 undefined on input line 124.
+LaTeX Warning: Citation 'einstein' on page 61 undefined on input line 125.
 
-[46
+[61
 
 ]
 
-LaTeX Warning: Empty bibliography on input line 130.
+LaTeX Warning: Empty bibliography on input line 131.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 133.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 133.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 134.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 134.
 (main.aux
 LaTeX Info: Redefining \. on input line 29.
 LaTeX Info: Redefining \% on input line 29.
 )
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 133.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 133.
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 84C2D564879915DA86EF527454E1A215;2906.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 134.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 134.
 
+
+Package rerunfilecheck Warning: File `main.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `main.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  D7922327E4F4DD72E2A5EBF569D994B9;3693.
 
 LaTeX Warning: There were undefined references.
 
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 133.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 134.
 
 Package biblatex Warning: Please (re)run Biber on the file:
 (biblatex)                main
@@ -2085,36 +2832,37 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31128 strings out of 480790
- 600380 string characters out of 2898202
- 1234433 words of memory out of 3000000
- 46331 multiletter control sequences out of 15000+200000
- 549568 words of font info for 96 fonts, out of 3000000 for 9000
+ 31355 strings out of 480790
+ 605907 string characters out of 2898202
+ 1229300 words of memory out of 3000000
+ 46482 multiletter control sequences out of 15000+200000
+ 550530 words of font info for 99 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 60i,18n,76p,1151b,3124s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 60i,18n,76p,1516b,1877s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\danie\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
-0600.pk><D:/Archivos de programa/LaTeX_stuff/MiKTeX/fonts/type1/public/amsfonts
-/cm/cmbx10.pfb><D:/Archivos de programa/LaTeX_stuff/MiKTeX/fonts/type1/public/a
-msfonts/cm/cmbx12.pfb><D:/Archivos de programa/LaTeX_stuff/MiKTeX/fonts/type1/p
-ublic/amsfonts/cm/cmbx9.pfb><D:/Archivos de programa/LaTeX_stuff/MiKTeX/fonts/t
-ype1/public/amsfonts/cm/cmex10.pfb><D:/Archivos de programa/LaTeX_stuff/MiKTeX/
-fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/Archivos de programa/LaTeX_stuff/
-MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><D:/Archivos de programa/LaTeX
-_stuff/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><D:/Archivos de programa
-/LaTeX_stuff/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Archivos de pr
-ograma/LaTeX_stuff/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><D:/Archivos
- de programa/LaTeX_stuff/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><D:/Arc
-hivos de programa/LaTeX_stuff/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><D
-:/Archivos de programa/LaTeX_stuff/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10
-.pfb><D:/Archivos de programa/LaTeX_stuff/MiKTeX/fonts/type1/public/amsfonts/cm
-/cmsy6.pfb><D:/Archivos de programa/LaTeX_stuff/MiKTeX/fonts/type1/public/amsfo
-nts/cm/cmsy8.pfb><D:/Archivos de programa/LaTeX_stuff/MiKTeX/fonts/type1/public
-/amsfonts/cm/cmti10.pfb><D:/Archivos de programa/LaTeX_stuff/MiKTeX/fonts/type1
-/public/amsfonts/cm/cmti9.pfb><D:/Archivos de programa/LaTeX_stuff/MiKTeX/fonts
-/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (54 pages, 7883237 bytes).
+1095.pk> <C:\Users\danie\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
+0\tcrm0600.pk><D:/Archivos de programa/LaTeX_stuff/MiKTeX/fonts/type1/public/am
+sfonts/cm/cmbx10.pfb><D:/Archivos de programa/LaTeX_stuff/MiKTeX/fonts/type1/pu
+blic/amsfonts/cm/cmbx12.pfb><D:/Archivos de programa/LaTeX_stuff/MiKTeX/fonts/t
+ype1/public/amsfonts/cm/cmbx9.pfb><D:/Archivos de programa/LaTeX_stuff/MiKTeX/f
+onts/type1/public/amsfonts/cm/cmex10.pfb><D:/Archivos de programa/LaTeX_stuff/M
+iKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><D:/Archivos de programa/LaTeX_
+stuff/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><D:/Archivos de programa
+/LaTeX_stuff/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><D:/Archivos de pr
+ograma/LaTeX_stuff/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><D:/Archivos
+ de programa/LaTeX_stuff/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><D:/Ar
+chivos de programa/LaTeX_stuff/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><
+D:/Archivos de programa/LaTeX_stuff/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.
+pfb><D:/Archivos de programa/LaTeX_stuff/MiKTeX/fonts/type1/public/amsfonts/cm/
+cmsy10.pfb><D:/Archivos de programa/LaTeX_stuff/MiKTeX/fonts/type1/public/amsfo
+nts/cm/cmsy6.pfb><D:/Archivos de programa/LaTeX_stuff/MiKTeX/fonts/type1/public
+/amsfonts/cm/cmsy8.pfb><D:/Archivos de programa/LaTeX_stuff/MiKTeX/fonts/type1/
+public/amsfonts/cm/cmti10.pfb><D:/Archivos de programa/LaTeX_stuff/MiKTeX/fonts
+/type1/public/amsfonts/cm/cmti9.pfb><D:/Archivos de programa/LaTeX_stuff/MiKTeX
+/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+Output written on main.pdf (67 pages, 11617513 bytes).
 PDF statistics:
- 818 PDF objects out of 1000 (max. 8388607)
- 161 named destinations out of 1000 (max. 500000)
- 508 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 971 PDF objects out of 1000 (max. 8388607)
+ 216 named destinations out of 1000 (max. 500000)
+ 353 words of extra memory for PDF output out of 10000 (max. 10000000)
 

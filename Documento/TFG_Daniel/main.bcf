@@ -2182,18 +2182,24 @@
     <bcf:datasource type="file" datatype="bibtex">Referencias.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="2">SHM_Aero_3</bcf:citekey>
-    <bcf:citekey order="3">dam</bcf:citekey>
-    <bcf:citekey order="4">Jaime_Tesis</bcf:citekey>
-    <bcf:citekey order="5">civil</bcf:citekey>
-    <bcf:citekey order="6">Jaime_Tesis</bcf:citekey>
+    <bcf:citekey order="1">SHM_Aero_3</bcf:citekey>
+    <bcf:citekey order="2">dam</bcf:citekey>
+    <bcf:citekey order="3">Jaime_Tesis</bcf:citekey>
+    <bcf:citekey order="4">civil</bcf:citekey>
+    <bcf:citekey order="5">Jaime_Tesis</bcf:citekey>
+    <bcf:citekey order="6">criterios</bcf:citekey>
     <bcf:citekey order="7">criterios</bcf:citekey>
     <bcf:citekey order="8">criterios</bcf:citekey>
-    <bcf:citekey order="9">criterios</bcf:citekey>
-    <bcf:citekey order="10">TensorFlow_playground</bcf:citekey>
-    <bcf:citekey order="11">Savitzky-Golay</bcf:citekey>
-    <bcf:citekey order="12">t_sne</bcf:citekey>
-    <bcf:citekey order="13">einstein</bcf:citekey>
+    <bcf:citekey order="9">TensorFlow_playground</bcf:citekey>
+    <bcf:citekey order="10">Savitzky-Golay</bcf:citekey>
+    <bcf:citekey order="11">t_sne</bcf:citekey>
+    <bcf:citekey order="12">Christian_TFM</bcf:citekey>
+    <bcf:citekey order="13">Christian_TFM</bcf:citekey>
+    <bcf:citekey order="14">GANs</bcf:citekey>
+    <bcf:citekey order="15">GAN_lab</bcf:citekey>
+    <bcf:citekey order="16">Christian_TFM</bcf:citekey>
+    <bcf:citekey order="17">TimeGAN</bcf:citekey>
+    <bcf:citekey order="18">einstein</bcf:citekey>
     <bcf:citekey order="0" nocite="1">*</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
