@@ -36,75 +36,79 @@ Sensors = [S1; S2; S3; S4; S5; S6; S7; S8]; %Elements number
 
 %%  PUNCTUAL LOAD  %%
 
-Data = struct('Type', {}, 'Size', {},'Ty_Si', {}, 'Load', {}, 'Ref_Strains', {}, ...
-    'TempCoef', {}, 'Strains', {},  'Temp', {}, 'Temperature', {});
+Data = struct('Type', {}, 'Size', {},'Ty_Si', {}, 'Temp', {}, 'Load', {}, ...
+    'Load_Strains', {},'Temperature', {}, 'TempCoef', {}, 'Temp_Strains', {}, ...
+    'Strains', {});
 
+repeat = 5*30*6;
+Noise = [0:5:25];
+
+% Load scaling
 load = [0.3:0.1:1];
 for i = 1:length(load)
     Load(i,1) = {num2str(load(i))}';
 end
-Noise = [0:5:25];
-repeat = 10;
+
+
+% Temperature scaling
+Tr = 180;
+temps = [-10:10:40];
+dT = temps - Tr;
+for i = 1:length(temps)
+    Temperature(i,1) = {num2str(temps(i))}';
+end
 
 %Punctual load Strains
 h = figure();
-for i = 1:length(FileNames)
-    Element_Position = [];    
+for i = 1:length(FileNames) 
     %Extract the information of the sensors' elements
+    Element_Position = [];   
     RawData = rpt_Reader(FileNames{i,1});
     for i2 = 1:size(Sensors)
         [tf,idx] = ismember(RawData(:,1),Sensors(i2,:));
         Element_Position = cat(1,Element_Position,find(1 == tf));
     end    
+    
     %Load the Data structure with the i values
     Data(i).Type = {FileNames{i,1}(11:13)};
     Data(i).Size = {FileNames{i,1}(15:17)};
     Data(i).Ty_Si = {[Data(i).Type{:} '-' Data(i).Size{:}]};
     Data(i).Temp = {FileNames{i,1}(20:end-4)};
-    if rem(i,2) == 0
+    
+    %Calculate the temperature coefficient
+    if Data(i).Temp{:} == '180'
         strains = RawData(Element_Position,2)'*4*10e2;
-        Data(i).TempCoef = (strains_odd - strains)/...
-            (str2num(Data(i-1).Temp{:}) - str2num(Data(i).Temp{:}));
+        Data(i).TempCoef = (strains - strains_odd)/...
+            (str2num(Data(i).Temp{:}) - str2num(Data(i-1).Temp{:}));
+        
+        % Pure load strains
+        Data(i).Load = repmat(Load,repeat,1);
+        Data(i).Load_Strains = repmat(load'*strains,repeat,1);
+        
+        % Pure temperature strains
+        for i2 = 1:length(temps)
+            Data(i).Temp_Strains = [Data(i).Temp_Strains; ...
+                repmat(dT(i2)*Data(i).TempCoef,repeat*8/6,1)];
+            Data(i).Temperature = [Data(i).Temperature; ...
+                repmat(Temperature(i2),repeat*8/6,1)];
+        end
+        
+        % Combine the load and temperature strains
+        Data(i).Strains = Data(i).Load_Strains + Data(i).Temp_Strains;
+    
+        % Add gausian noise
+        Data(i).Strains = Data(i).Strains + ...
+            wgn(size(Data(i).Strains,1),size(Data(i).Strains,2),-10);
     else
         strains = RawData(Element_Position,2)'*4*10e2;
         strains_odd = strains;
-    end    
+    end
+    
+    % Plot strains
     plot(strains)
     hold on
-    %Increase the Sample number with noise -> Gusian or Random
-    for i2 = 1:length(load)
-        Data(i).Ref_Strains = [Data(i).Ref_Strains; repmat(strains*load(i2),repeat,1)];%...
-            %+ wgn(repeat,length(strains),-15)];
-        for j2 = 1:repeat
-            Data(i).Load = [Data(i).Load; Load(i2)];
-        end    
-    end
 end
 
-   
-%%  THERMAL LOAD  %%
-
-Tr = 180;
-dT = [-10:10:40] - Tr;
-Data_T = Data(2:2:end);
-
-h = figure();
-for i = 1:length(Data_T)    %Link temperature change and the deformation
-    %Thermal strains
-    for i2 = 1:length(dT)
-        Data_T(i).Strains = [Data_T(i).Strains; Data_T(i).Ref_Strains + ...
-            repmat(Data_T(i).TempCoef*dT(i2),size(Data_T(1).Ref_Strains,1),1)];
-%         for i3 = 1:size(Data_T(1).Ref_Strains,1)
-%             Data_T(i).Temperature = [Data_T(i).Temperature;...
-%                 {[num2str(dT(i2) + Tr) ' ºC']}];
-%         end
-    end
-    Data_T(i).Load = repmat(Data_T(i).Load,length(dT),1);
-    %Add noise
-    Data_T(i).Strains = [Data_T(i).Strains + wgn(size(Data_T(i).Strains,1),size(Data_T(i).Strains,2),-17.5)];
-    plot(Data_T(i).Strains(20,:))
-    hold on
-end
 %{
     hold on;
     plot(Data(1).Strains(:,14))
@@ -128,35 +132,17 @@ end
 
 LSTM_Style = LSTM_Style;
 
-Data_T = rmfield(Data_T,'Temp');
-Data_T = rmfield(Data_T,'Ref_Strains');
-Data_T = rmfield(Data_T,'TempCoef');
-Data_T = rmfield(Data_T,'Temperature');
+Data = rmfield(Data,'Temp');
+Data = rmfield(Data,'Load_Strains');
+Data = rmfield(Data,'TempCoef');
+Data = rmfield(Data,'Temp_Strains');
 
-LSTM_S = LSTM_Struct(LSTM_Style,Data_T);
+remove = 2:2:length(Data);
+for i = 1:length(remove)
+    Data_New(i) = Data(remove(i));
+end
+
+LSTM_S = LSTM_Struct(LSTM_Style,Data_New);
 LSTM = TrValTe(LSTM_Style,LSTM_S,15,15);
 
-
-
-%% PLOTS
-%{
-figure()
-leg = {};
-for i = 11:15
-    plot(Data(i).Strains,'o-'); hold on
-    leg = cat(1,leg,{[Data(i).Type,'-', Data(i).Size]});
-end
-legend(leg)
-title('Estado Und para diferentes temperaturas')
-
-figure()
-leg = {};
-for i = 11:15
-    plot(Data(i).Strains-Data(end).Strains,'o-'); hold on
-    leg = cat(1,leg,{[Data(i).Type,'-', Data(i).Size]});
-end
-legend(leg)
-title('Deformaciones por la diferencia de temperatura: ref 180ºC')
-%}
-
-save('C:\Users\danie\OneDrive - Universidad Politécnica de Madrid\TFG\Datos_TFG\Deformaciones\DACOMAT\LSTM_Data', 'Data_T', 'LSTM')
+save('C:\Users\danie\OneDrive - Universidad Politécnica de Madrid\TFG\Datos_TFG\Deformaciones\DACOMAT\LSTM_Data', 'LSTM')

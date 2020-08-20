@@ -4,10 +4,6 @@ clc;
 clear all;
 close all;
 
-%% CREATE LSTM_Style OBJECT
-
-LSTM_Style = LSTM_Style;
-
 
 %% LOAD FILES
 
@@ -217,84 +213,27 @@ set(h,'PaperPositionMode','Auto','PaperUnits','Inches','PaperSize',[pos(3), pos(
 print(h,'TFG_Figures\D02_comb','-dpdf','-r0')
 
 
-
-
-
-%%  THERMAL LOAD  %%
-
-Tr = 180;
-dT = [-10:10:40] - Tr;
-Data_T = Data(2:2:end);
+%% ADD NOISE  wgn(size(Data(i).Strains,1),size(Data(i).Strains,2),-5)
 
 h = figure();
-for i = 1:length(Data_T)    %Link temperature change and the deformation
-    %Thermal strains
-    for i2 = 1:length(dT)
-        Data_T(i).Strains = [Data_T(i).Strains; Data_T(i).Ref_Strains + ...
-            repmat(Data_T(i).TempCoef*dT(i2),size(Data_T(1).Ref_Strains,1),1)];
-%         for i3 = 1:size(Data_T(1).Ref_Strains,1)
-%             Data_T(i).Temperature = [Data_T(i).Temperature;...
-%                 {[num2str(dT(i2) + Tr) ' ºC']}];
-%         end
-    end
-    Data_T(i).Load = repmat(Data_T(i).Load,length(dT),1);
-    %Add noise
-    Data_T(i).Strains = [Data_T(i).Strains + wgn(size(Data_T(i).Strains,1),size(Data_T(i).Strains,2),-17.5)];
-    plot(Data_T(i).Strains(20,:))
-    hold on
-end
-%{
-    hold on;
-    plot(Data(1).Strains(:,14))
-    reescalados = Index_Change*(-150) + 15;
-    plot(reescalados)
-    axis([0 3075 -135 5])
+hold on
+    plot(Data(19).Ref_Strains(end,:),'LineWidth',2)
+    plot(Data(19).Ref_Strains(end,:)+wgn(size(Data(19).Ref_Strains(end,:),1),size(Data(19).Ref_Strains(end,:),2),-4),...
+        'LineWidth',1)
+    plot(Data(19).Ref_Strains(end,:)+wgn(size(Data(19).Ref_Strains(end,:),1),size(Data(19).Ref_Strains(end,:),2),-4),...
+        'LineWidth',1)
+    plot(Data(19).Ref_Strains(end,:)+wgn(size(Data(19).Ref_Strains(end,:),1),size(Data(19).Ref_Strains(end,:),2),-4),...
+        'LineWidth',1)
+    
+    axis([150 200 -60 0])
+    box on
 
-    xlabel('Tiempo','Interpreter','latex')
-    ylabel('Deformacion','Interpreter','latex')
-    title(['\textbf{D01-01R: sensor 14}'],'Interpreter','latex')
-    %legend(leg)
+legend([{'referencia'},{'muestra 1'},{'muestra 2'},{'muestra 3'}],'Interpreter','latex','Location','northeast')
+xlabel('Longitud','Interpreter','latex')
+ylabel('Deformacion','Interpreter','latex')
+title(['\textbf{D02-S05, 20$^{\circ}$C, carga maxima}'],'Interpreter','latex')
 
-    set(h,'Units','Inches');
-    pos = get(h,'Position');
-    set(h,'PaperPositionMode','Auto','PaperUnits','Inches','PaperSize',[pos(3), pos(4)])
-    print(h,'TFG_Figures\Saltos_FBG','-dpdf','-r0')
-%}
-
-
-%%  GENERATE THE LSTM TRUCTURE AND ORGANIZE THE DATA  %%
-
-LSTM_Style = LSTM_Style;
-
-Data_T = rmfield(Data_T,'Temp');
-Data_T = rmfield(Data_T,'Ref_Strains');
-Data_T = rmfield(Data_T,'TempCoef');
-Data_T = rmfield(Data_T,'Temperature');
-
-LSTM_S = LSTM_Struct(LSTM_Style,Data_T);
-LSTM = TrValTe(LSTM_Style,LSTM_S,15,15);
-
-
-
-%% PLOTS
-%{
-figure()
-leg = {};
-for i = 11:15
-    plot(Data(i).Strains,'o-'); hold on
-    leg = cat(1,leg,{[Data(i).Type,'-', Data(i).Size]});
-end
-legend(leg)
-title('Estado Und para diferentes temperaturas')
-
-figure()
-leg = {};
-for i = 11:15
-    plot(Data(i).Strains-Data(end).Strains,'o-'); hold on
-    leg = cat(1,leg,{[Data(i).Type,'-', Data(i).Size]});
-end
-legend(leg)
-title('Deformaciones por la diferencia de temperatura: ref 180ºC')
-%}
-
-save('C:\Users\danie\OneDrive - Universidad Politécnica de Madrid\TFG\Datos_TFG\Deformaciones\DACOMAT\LSTM_Data', 'Data_T', 'LSTM')
+set(h,'Units','Inches');
+pos = get(h,'Position');
+set(h,'PaperPositionMode','Auto','PaperUnits','Inches','PaperSize',[pos(3), pos(4)])
+print(h,'TFG_Figures\D02_noise','-dpdf','-r0')
