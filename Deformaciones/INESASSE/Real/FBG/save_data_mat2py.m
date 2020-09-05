@@ -7,10 +7,10 @@ load([data_path 'Mean-1to10_Min-Load-30.mat'])
 
 mean = 5;
 
-Tr_La = LSTM(mean).Load_La_Tr;
-Tr_St = LSTM(mean).Load_St_Tr;
-Va_La = LSTM(mean).Load_La_Val;
-Va_St = LSTM(mean).Load_St_Val;
+Tr_La = LSTM(mean).Type_La_Tr;
+Tr_St = LSTM(mean).Type_St_Tr;
+Va_La = LSTM(mean).Type_La_Val;
+Va_St = LSTM(mean).Type_St_Val;
 
 categ = categories(Tr_La);
 
