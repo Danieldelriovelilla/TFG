@@ -9,7 +9,7 @@ close all;
 tic
 LSTM_Style = LSTM_Style;
 
-load('Data\Data_Raw.mat')
+load('C:\Users\danie\OneDrive - Universidad Politécnica de Madrid\TFG\Datos_TFG\Deformaciones\INESASSE\Real\FBG\\Data_Raw.mat')
 
 display('Select between the next options: ')
 display('    1. Perform the strain calculation with a mean')
